@@ -1372,6 +1372,11 @@
        NAVIGATION
        ============================================================ */
     function setView(view) {
+      // Re-calculate and render the dashboard stats right before showing it
+      if (view === 'dashboard') {
+        renderDashboard();
+      }
+
       document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
       document.getElementById('view-' + view).classList.add('active');
       document.querySelectorAll('.nav-btn, .bnav-btn').forEach(b => {
@@ -1379,9 +1384,6 @@
       });
       window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
     }
-    document.querySelectorAll('.nav-btn, .bnav-btn').forEach(btn => {
-      btn.addEventListener('click', () => setView(btn.dataset.view));
-    });
 
     /* ============================================================
        MODAL
@@ -2018,8 +2020,8 @@
        ============================================================ */
     async function init() {
       try {
-        // Fetch live data from Upstash Redis before rendering
-        const res = await fetch('/api/sync');
+        // Force the browser to bypass the cache and fetch fresh data
+        const res = await fetch('/api/sync', { cache: 'no-store' });
         if (res.ok) {
           const data = await res.json();
           remoteState.statuses = data.statuses || {};
