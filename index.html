@@ -1385,6 +1385,11 @@
       window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
     }
 
+    //It tells the buttons to listen for clicks.
+    document.querySelectorAll('.nav-btn, .bnav-btn').forEach(btn => {
+      btn.addEventListener('click', () => setView(btn.dataset.view));
+    });
+
     /* ============================================================
        MODAL
        ============================================================ */
