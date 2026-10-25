@@ -4,11 +4,20 @@
             "university": "CMU-Africa",
             "region": "Rwanda",
             "program": "MS Information Technology / MSECE",
-            "funding": "Mastercard Foundation Scholars: 100% full ride",
-            "cost_profile": "Fully Covered ($0 net)",
+            "funding": "Scholarship/financial aid subject to selection; see review",
+            "cost_profile": "Competitive funding; award required",
             "qual_match": "Very High: First Class (70.85%) + 90% in Distributed Computing matches core.",
             "status": "Not Started",
-            "applyUrl": "https://www.africa.engineering.cmu.edu/admissions/index.html"
+            "applyUrl": "https://www.africa.engineering.cmu.edu/admissions/index.html",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2027-01-15",
+                "note": "First batch: aim for early deadline 15 December 2026. Final deadline 15 January 2027. No application fee; two-page CV; three referee contacts; unofficial complete transcript and grading key accepted. Separate financial aid assessment after application; funding is competitive.",
+                "sources": [
+                    "https://www.africa.engineering.cmu.edu/admissions/faq.html"
+                ],
+                "opens": "2026-10-01"
+            }
         },
         {
             "university": "University of Cape Town (UCT)",
@@ -18,7 +27,15 @@
             "cost_profile": "Moderate",
             "qual_match": "High: Recognizes KNUST first-class degree directly.",
             "status": "Not Started",
-            "applyUrl": "https://www.uct.ac.za/apply"
+            "applyUrl": "https://www.uct.ac.za/apply",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.uct.ac.za/apply"
+                ]
+            }
         },
         {
             "university": "Univ. of the Witwatersrand",
@@ -28,7 +45,15 @@
             "cost_profile": "Moderate",
             "qual_match": "High: Strong systems math and Classical Control (93%).",
             "status": "Not Started",
-            "applyUrl": "https://www.wits.ac.za/study-at-wits/postgraduate/"
+            "applyUrl": "https://www.wits.ac.za/study-at-wits/postgraduate/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.wits.ac.za/study-at-wits/postgraduate/"
+                ]
+            }
         },
         {
             "university": "Stellenbosch University",
@@ -38,7 +63,15 @@
             "cost_profile": "Moderate",
             "qual_match": "Medium-High: Strong fit for DSP (82%) research.",
             "status": "Not Started",
-            "applyUrl": "https://www.sun.ac.za/english/postgraduate"
+            "applyUrl": "https://www.sun.ac.za/english/postgraduate",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.sun.ac.za/english/postgraduate"
+                ]
+            }
         },
         {
             "university": "AIMS (Multiple Centers)",
@@ -48,7 +81,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: Solid programming and math foundations.",
             "status": "Not Started",
-            "applyUrl": "https://aimsammi.org/"
+            "applyUrl": "https://aimsammi.org/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://aimsammi.org/"
+                ]
+            }
         },
         {
             "university": "UESTC",
@@ -58,7 +99,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Matches your Computer Networking (72%).",
             "status": "Not Started",
-            "applyUrl": "https://en.uestc.edu.cn/"
+            "applyUrl": "https://en.uestc.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.uestc.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Xidian University",
@@ -68,7 +117,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Strong match for Semiconductor Devices (84%).",
             "status": "Not Started",
-            "applyUrl": "https://en.xidian.edu.cn/"
+            "applyUrl": "https://en.xidian.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.xidian.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Southeast University (SEU)",
@@ -78,7 +135,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "Medium-High: Strong on Microprocessors (81%).",
             "status": "Not Started",
-            "applyUrl": "https://www.seu.edu.cn/english/"
+            "applyUrl": "https://www.seu.edu.cn/english/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.seu.edu.cn/english/"
+                ]
+            }
         },
         {
             "university": "BUPT",
@@ -88,7 +153,15 @@
             "cost_profile": "Mostly Covered",
             "qual_match": "High: Alignment with Secure Network Systems (64%).",
             "status": "Not Started",
-            "applyUrl": "https://en.bupt.edu.cn/"
+            "applyUrl": "https://en.bupt.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.bupt.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Zhejiang University (ZJU)",
@@ -98,7 +171,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "Medium-High: Competitive C9 school; First Class meets criteria.",
             "status": "Not Started",
-            "applyUrl": "https://www.zju.edu.cn/english/"
+            "applyUrl": "https://www.zju.edu.cn/english/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.zju.edu.cn/english/"
+                ]
+            }
         },
         {
             "university": "Harbin Inst. of Tech. (HIT)",
@@ -108,7 +189,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Embedded Systems (63%) and OS (76%) align well.",
             "status": "Not Started",
-            "applyUrl": "http://en.hit.edu.cn/"
+            "applyUrl": "http://en.hit.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "http://en.hit.edu.cn/"
+                ]
+            }
         },
         {
             "university": "HUST",
@@ -118,7 +207,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Renowned for data systems and architecture.",
             "status": "Not Started",
-            "applyUrl": "https://english.hust.edu.cn/"
+            "applyUrl": "https://english.hust.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://english.hust.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Shanghai Jiao Tong Univ. (SJTU)",
@@ -128,7 +225,15 @@
             "cost_profile": "Partially Covered",
             "qual_match": "Medium: Hyper-selective, but First Class passes screening.",
             "status": "Not Started",
-            "applyUrl": "https://en.sjtu.edu.cn/"
+            "applyUrl": "https://en.sjtu.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.sjtu.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Tsinghua University",
@@ -138,7 +243,15 @@
             "cost_profile": "Moderate-High",
             "qual_match": "Medium: Ultra-competitive; requires pitching software engineering (92%).",
             "status": "Not Started",
-            "applyUrl": "https://www.tsinghua.edu.cn/en/"
+            "applyUrl": "https://www.tsinghua.edu.cn/en/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.tsinghua.edu.cn/en/"
+                ]
+            }
         },
         {
             "university": "Peking University (PKU)",
@@ -148,7 +261,15 @@
             "cost_profile": "Moderate-High",
             "qual_match": "Medium: Theoretical focus; requires pitching distributed computing strengths.",
             "status": "Not Started",
-            "applyUrl": "https://english.pku.edu.cn/"
+            "applyUrl": "https://english.pku.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://english.pku.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Fudan University",
@@ -158,7 +279,15 @@
             "cost_profile": "Partially Covered",
             "qual_match": "Medium-High: Premier ASIC layout research.",
             "status": "Not Started",
-            "applyUrl": "https://www.fudan.edu.cn/en/"
+            "applyUrl": "https://www.fudan.edu.cn/en/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.fudan.edu.cn/en/"
+                ]
+            }
         },
         {
             "university": "Beihang University",
@@ -168,7 +297,15 @@
             "cost_profile": "Mostly Covered",
             "qual_match": "High: Embedded electronics and DSP (82%) match well.",
             "status": "Not Started",
-            "applyUrl": "https://ev.buaa.edu.cn/"
+            "applyUrl": "https://ev.buaa.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://ev.buaa.edu.cn/"
+                ]
+            }
         },
         {
             "university": "USTC",
@@ -178,7 +315,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Strong engineering math and logic fundamentals.",
             "status": "Not Started",
-            "applyUrl": "https://en.ustc.edu.cn/"
+            "applyUrl": "https://en.ustc.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.ustc.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Northwestern Polytechnical Univ.",
@@ -188,7 +333,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Excellent aerospace/embedded hardware labs.",
             "status": "Not Started",
-            "applyUrl": "https://en.nwpu.edu.cn/"
+            "applyUrl": "https://en.nwpu.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.nwpu.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Dalian University of Technology",
@@ -198,7 +351,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Software Engineering (92%) makes you a prime candidate.",
             "status": "Not Started",
-            "applyUrl": "https://en.dlut.edu.cn/"
+            "applyUrl": "https://en.dlut.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.dlut.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Sichuan University",
@@ -208,7 +369,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Lower cost region with massive computing labs.",
             "status": "Not Started",
-            "applyUrl": "https://en.scu.edu.cn/"
+            "applyUrl": "https://en.scu.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.scu.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Nankai University",
@@ -218,7 +387,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Strong database and information retrieval marks (79%).",
             "status": "Not Started",
-            "applyUrl": "https://en.nankai.edu.cn/"
+            "applyUrl": "https://en.nankai.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.nankai.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Central South University",
@@ -228,7 +405,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: National powerhouse for industrial engineering software.",
             "status": "Not Started",
-            "applyUrl": "https://en.csu.edu.cn/"
+            "applyUrl": "https://en.csu.edu.cn/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://en.csu.edu.cn/"
+                ]
+            }
         },
         {
             "university": "Sun Yat-sen University",
@@ -238,7 +423,15 @@
             "cost_profile": "Partially Covered",
             "qual_match": "High: Great telecom and computing infrastructure.",
             "status": "Not Started",
-            "applyUrl": "https://www.sysu.edu.cn/en/"
+            "applyUrl": "https://www.sysu.edu.cn/en/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.sysu.edu.cn/en/"
+                ]
+            }
         },
         {
             "university": "Jilin University",
@@ -248,7 +441,15 @@
             "cost_profile": "Covered ($0 net)",
             "qual_match": "High: Standard CSC benefits with high acceptance rate for First Class honors.",
             "status": "Not Started",
-            "applyUrl": "https://www.jlu.edu.cn/english/"
+            "applyUrl": "https://www.jlu.edu.cn/english/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.jlu.edu.cn/english/"
+                ]
+            }
         },
         {
             "university": "RWTH Aachen University",
@@ -258,7 +459,15 @@
             "cost_profile": "Moderate-High (Blocked Acct)",
             "qual_match": "High: 145 total credits meet ECTS conversion requirements.",
             "status": "Not Started",
-            "applyUrl": "https://www.rwth-aachen.de/"
+            "applyUrl": "https://www.rwth-aachen.de/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.rwth-aachen.de/"
+                ]
+            }
         },
         {
             "university": "Technical Univ. of Munich (TUM)",
@@ -268,7 +477,15 @@
             "cost_profile": "High (Blocked Acct)",
             "qual_match": "High-Medium: Excellent academic fit, but upfront self-funding required.",
             "status": "Not Started",
-            "applyUrl": "https://www.tum.de/en/"
+            "applyUrl": "https://www.tum.de/en/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.tum.de/en/"
+                ]
+            }
         },
         {
             "university": "University of Freiburg",
@@ -278,7 +495,15 @@
             "cost_profile": "Moderate",
             "qual_match": "High: Aligns with Microprocessors (81%) and Autotronic Lab.",
             "status": "Not Started",
-            "applyUrl": "https://uni-freiburg.de/en/"
+            "applyUrl": "https://uni-freiburg.de/en/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://uni-freiburg.de/en/"
+                ]
+            }
         },
         {
             "university": "TU Berlin",
@@ -288,7 +513,15 @@
             "cost_profile": "Moderate-High",
             "qual_match": "High: Excellent network engineering track.",
             "status": "Not Started",
-            "applyUrl": "https://www.tu.berlin/en/"
+            "applyUrl": "https://www.tu.berlin/en/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.tu.berlin/en/"
+                ]
+            }
         },
         {
             "university": "TU Delft",
@@ -298,7 +531,15 @@
             "cost_profile": "High",
             "qual_match": "Medium: High self-fund barrier if scholarship is missed.",
             "status": "Not Started",
-            "applyUrl": "https://www.tudelft.nl/en/education/programmes/masters/computer-science/msc-computer-science"
+            "applyUrl": "https://www.tudelft.nl/en/education/programmes/masters/computer-science/msc-computer-science",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.tudelft.nl/en/education/programmes/masters/computer-science/msc-computer-science"
+                ]
+            }
         },
         {
             "university": "Politecnico di Milano",
@@ -308,7 +549,15 @@
             "cost_profile": "Moderate",
             "qual_match": "High: DSU scholarship reliably funds African candidates with First Class degrees.",
             "status": "Not Started",
-            "applyUrl": "https://www.polimi.it/en/"
+            "applyUrl": "https://www.polimi.it/en/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.polimi.it/en/"
+                ]
+            }
         },
         {
             "university": "Politecnico di Torino",
@@ -318,7 +567,15 @@
             "cost_profile": "Moderate",
             "qual_match": "High: Very similar funding mechanism to PoliMi; great hardware programs.",
             "status": "Not Started",
-            "applyUrl": "https://www.polito.it/en"
+            "applyUrl": "https://www.polito.it/en",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.polito.it/en"
+                ]
+            }
         },
         {
             "university": "KTH Royal Inst. of Technology",
@@ -328,7 +585,15 @@
             "cost_profile": "High",
             "qual_match": "High-Medium: Requires proven work/leadership experience alongside grades.",
             "status": "Not Started",
-            "applyUrl": "https://www.kth.se/en/studies/master"
+            "applyUrl": "https://www.kth.se/en/studies/master",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.kth.se/en/studies/master"
+                ]
+            }
         },
         {
             "university": "KU Leuven",
@@ -338,7 +603,15 @@
             "cost_profile": "Moderate",
             "qual_match": "High-Medium: Strict math/algorithmic prerequisite checks.",
             "status": "Not Started",
-            "applyUrl": "https://www.kuleuven.be/english/education/masters"
+            "applyUrl": "https://www.kuleuven.be/english/education/masters",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.kuleuven.be/english/education/masters"
+                ]
+            }
         },
         {
             "university": "JUNIA",
@@ -348,7 +621,15 @@
             "cost_profile": "Moderate",
             "qual_match": "Very High: Academically overqualified; requires proof of financing.",
             "status": "Not Started",
-            "applyUrl": "https://www.junia.com/en/"
+            "applyUrl": "https://www.junia.com/en/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.junia.com/en/"
+                ]
+            }
         },
         {
             "university": "ETH Zurich",
@@ -356,9 +637,19 @@
             "program": "MSc Computer Science / Systems",
             "funding": "ESOP Excellence Scholarship (Full ride)",
             "cost_profile": "Very High",
-            "qual_match": "Medium: Extremely competitive globally; CWA 70.85% is the baseline.",
+            "qual_match": "Reach: ESOP requires top-10% bachelor performance; First Class alone does not establish this. Programme prerequisites also apply.",
             "status": "Not Started",
-            "applyUrl": "https://ethz.ch/en/studies/master/master-programmes.html"
+            "applyUrl": "https://ethz.ch/en/studies/master/master-programmes.html",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2026-11-30",
+                "opens": "2026-11-01",
+                "note": "Autumn 2027 international applications and ESOP: 1–30 November 2026, closes 11:59 AM CET (10:59 AM Ghana), NOT midnight. ESOP provides CHF13,500/semester plus tuition waiver; top-10% standing needs evidence/self-assessment. Requires independently developed thesis pre-proposal and references.",
+                "sources": [
+                    "https://ethz.ch/en/studies/master/application/dates.html",
+                    "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html/"
+                ]
+            }
         },
         {
             "university": "EPFL",
@@ -368,7 +659,15 @@
             "cost_profile": "Very High",
             "qual_match": "Medium: Elite systems architecture and security programs.",
             "status": "Not Started",
-            "applyUrl": "https://www.epfl.ch/education/master/"
+            "applyUrl": "https://www.epfl.ch/education/master/",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": null,
+                "note": "Published recurring rounds: mid-November–15 December and 16 December–31 March; visa applicants encouraged to use December round. Page does not explicitly label the 2027 cycle; confirm before assigning a dated deadline. Fellowship eligibility/funding remains to be checked.",
+                "sources": [
+                    "https://www.epfl.ch/education/admission/admission-2/master-admission-criteria-application/online-application/"
+                ]
+            }
         },
         {
             "university": "Aalto University",
@@ -378,7 +677,15 @@
             "cost_profile": "High",
             "qual_match": "High-Medium: Requires strong software architecture background.",
             "status": "Not Started",
-            "applyUrl": "https://www.aalto.fi/en/study-options/masters-programme-in-computer-communication-and-information-sciences"
+            "applyUrl": "https://www.aalto.fi/en/study-options/masters-programme-in-computer-communication-and-information-sciences",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.aalto.fi/en/study-options/masters-programme-in-computer-communication-and-information-sciences"
+                ]
+            }
         },
         {
             "university": "KAIST",
@@ -386,9 +693,17 @@
             "program": "School of Computing / EE",
             "funding": "KAIST International Scholarship (Full ride)",
             "cost_profile": "Covered ($0 net)",
-            "qual_match": "High: First-class KNUST degree fulfills all academic criteria.",
+            "qual_match": "High: Relevant Computer Engineering degree; institutional eligibility assessment required.",
             "status": "Not Started",
-            "applyUrl": "https://admission.kaist.ac.kr/"
+            "applyUrl": "https://admission.kaist.ac.kr/",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": null,
+                "note": "Spring 2027 deadline passed on 1 September 2026. Fall 2027 dates TBA at review. University must assess eligibility; First Class does not automatically satisfy every criterion.",
+                "sources": [
+                    "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines"
+                ]
+            }
         },
         {
             "university": "KAUST",
@@ -398,7 +713,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High-Medium: Zero financial risk; values strong capstone projects (79%).",
             "status": "Not Started",
-            "applyUrl": "https://admissions.kaust.edu.sa/"
+            "applyUrl": "https://admissions.kaust.edu.sa/",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2027-01-03",
+                "note": "Fall 2027 MS deadline 3 January. Spring 2027 is PhD-only. Prepare official complete academic record; referee requests are sent when details are entered.",
+                "sources": [
+                    "https://admissions.kaust.edu.sa/how-to-apply/admission-timelines"
+                ]
+            }
         },
         {
             "university": "NTU",
@@ -408,7 +731,15 @@
             "cost_profile": "High",
             "qual_match": "Medium: SINGA focuses on PhD tracks, MS funding is highly competitive.",
             "status": "Not Started",
-            "applyUrl": "https://www.ntu.edu.sg/admissions/graduate"
+            "applyUrl": "https://www.ntu.edu.sg/admissions/graduate",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.ntu.edu.sg/admissions/graduate"
+                ]
+            }
         },
         {
             "university": "NUS",
@@ -418,17 +749,33 @@
             "cost_profile": "High",
             "qual_match": "Medium: Elite VLSI and chip fabrication ecosystem.",
             "status": "Not Started",
-            "applyUrl": "https://www.nus.edu.sg/oam/graduate"
+            "applyUrl": "https://www.nus.edu.sg/oam/graduate",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.nus.edu.sg/oam/graduate"
+                ]
+            }
         },
         {
             "university": "MBZUAI",
             "region": "UAE",
             "program": "MSc Computer Vision / Machine Learning",
-            "funding": "Fully Funded (Tuition + Stipend)",
-            "cost_profile": "Fully Covered ($0 net)",
+            "funding": "Scholarship/financial aid subject to selection; see review",
+            "cost_profile": "Competitive funding; award required",
             "qual_match": "Medium-High: Specialized AI focus requires strong discrete math (60%).",
             "status": "Not Started",
-            "applyUrl": "https://mbzuai.ac.ae/admissions/"
+            "applyUrl": "https://mbzuai.ac.ae/admissions/",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2026-12-15",
+                "note": "Most MSc deadlines: 15 December 2026. Funding is not guaranteed for every admitted student. Master in Applied AI is a separate fee-based programme.",
+                "sources": [
+                    "https://mbzuai.ac.ae/admissions/graduate-masters-admissions/"
+                ]
+            }
         },
         {
             "university": "Khalifa University",
@@ -438,7 +785,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: Direct alignment with standard computer engineering core.",
             "status": "Not Started",
-            "applyUrl": "https://www.ku.ac.ae/admissions/"
+            "applyUrl": "https://www.ku.ac.ae/admissions/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.ku.ac.ae/admissions/"
+                ]
+            }
         },
         {
             "university": "University of Alberta",
@@ -448,7 +803,15 @@
             "cost_profile": "Moderate",
             "qual_match": "High: First Class meets 3.3/4.0 GPA; needs supervisor endorsement.",
             "status": "Not Started",
-            "applyUrl": "https://www.ualberta.ca/en/computing-science/graduate-studies/index.html"
+            "applyUrl": "https://www.ualberta.ca/en/computing-science/graduate-studies/index.html",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.ualberta.ca/en/computing-science/graduate-studies/index.html"
+                ]
+            }
         },
         {
             "university": "University of Calgary",
@@ -458,7 +821,15 @@
             "cost_profile": "Moderate",
             "qual_match": "High: High marks in Distributed Computing (90%) attract faculty.",
             "status": "Not Started",
-            "applyUrl": "https://www.ucalgary.ca/future-students/graduate"
+            "applyUrl": "https://www.ucalgary.ca/future-students/graduate",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.ucalgary.ca/future-students/graduate"
+                ]
+            }
         },
         {
             "university": "University of Waterloo",
@@ -468,7 +839,15 @@
             "cost_profile": "Moderate-High",
             "qual_match": "High-Medium: Highly rigorous software and systems engineering screening.",
             "status": "Not Started",
-            "applyUrl": "https://uwaterloo.ca/math/future-graduate-students"
+            "applyUrl": "https://uwaterloo.ca/math/future-graduate-students",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://uwaterloo.ca/math/future-graduate-students"
+                ]
+            }
         },
         {
             "university": "University of Toronto",
@@ -478,7 +857,15 @@
             "cost_profile": "High",
             "qual_match": "Medium: Demands exceptional research profiles alongside first-class grades.",
             "status": "Not Started",
-            "applyUrl": "https://web.cs.toronto.edu/graduate"
+            "applyUrl": "https://web.cs.toronto.edu/graduate",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://web.cs.toronto.edu/graduate"
+                ]
+            }
         },
         {
             "university": "Purdue University",
@@ -488,7 +875,15 @@
             "cost_profile": "High",
             "qual_match": "Medium-High: Top-tier US chip fabrication program; risky without external funding.",
             "status": "Not Started",
-            "applyUrl": "https://engineering.purdue.edu/ECE/Academics/Graduates/Admissions"
+            "applyUrl": "https://engineering.purdue.edu/ECE/Academics/Graduates/Admissions",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://engineering.purdue.edu/ECE/Academics/Graduates/Admissions"
+                ]
+            }
         },
         {
             "university": "Georgia Tech",
@@ -498,7 +893,15 @@
             "cost_profile": "High",
             "qual_match": "Medium-High: Premier HW/SW co-design; financially demanding upfront.",
             "status": "Not Started",
-            "applyUrl": "https://www.ece.gatech.edu/graduate-programs/admissions"
+            "applyUrl": "https://www.ece.gatech.edu/graduate-programs/admissions",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.ece.gatech.edu/graduate-programs/admissions"
+                ]
+            }
         },
         {
             "university": "University of Cambridge",
@@ -506,19 +909,39 @@
             "program": "MPhil in Advanced Computer Science",
             "funding": "Gates Cambridge / Commonwealth Scholarship (100% full ride)",
             "cost_profile": "Fully Covered ($0 net)",
-            "qual_match": "Very High: First Class (70.85%) + 90% Distributed Systems aligns with advanced systems research.",
+            "qual_match": "Medium: First Class meets general academic positioning; highly competitive research fit and funding selection.",
             "status": "Not Started",
-            "applyUrl": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpma"
+            "applyUrl": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpma",
+            "review": {
+                "checked": "2026-10-25",
+                "opens": "2026-09-09",
+                "deadline": "2027-02-25",
+                "note": "Open for October 2027. Funding dates conflict: department says 2 December 2026, course directory says 8 December. Use 2 December as an internal target and confirm with admissions. Mastercard route requires African residency/connection and contribution to sustainability/climate resilience. Prepare two research themes and 1–2 project proposals (max 500 words each).",
+                "sources": [
+                    "https://www.cst.cam.ac.uk/admissions/acs",
+                    "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpacs/finance",
+                    "https://www.mastercardfoundation.fund.cam.ac.uk/apply/eligibility"
+                ]
+            }
         },
         {
             "university": "University of Oxford",
             "region": "UK",
             "program": "MSc in Advanced Computer Science",
-            "funding": "Commonwealth Master's / Chevening Scholarships (100% full ride)",
-            "cost_profile": "Fully Covered ($0 net)",
-            "qual_match": "High: First Class meets stringent Oxford admissions bar; 92% Software Eng.",
+            "funding": "Clarendon: competitive full fees and living grant; automatic consideration with timely course application",
+            "cost_profile": "Funding not guaranteed",
+            "qual_match": "Reach: First Class supports consideration; mathematical/CS preparation and higher-level English requirements need assessment.",
             "status": "Not Started",
-            "applyUrl": "https://www.cs.ox.ac.uk/admissions/graduate/"
+            "applyUrl": "https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2027-01-06",
+                "note": "Open for October 2027. Closes 6 January 2027 at noon UK/Ghana time. Clarendon automatic consideration by course funding deadline; no separate application. Scholarship is highly competitive, not guaranteed.",
+                "sources": [
+                    "https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science",
+                    "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants"
+                ]
+            }
         },
         {
             "university": "Imperial College London",
@@ -528,7 +951,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: Strong quantitative profile and 90% systems coursework fit Computing MSc.",
             "status": "Not Started",
-            "applyUrl": "https://www.imperial.ac.uk/computing/prospective-students/courses/msc/"
+            "applyUrl": "https://www.imperial.ac.uk/computing/prospective-students/courses/msc/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.imperial.ac.uk/computing/prospective-students/courses/msc/"
+                ]
+            }
         },
         {
             "university": "University of Edinburgh",
@@ -538,7 +969,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "Very High: Designated Mastercard Foundation African partner; First Class directly eligible.",
             "status": "Not Started",
-            "applyUrl": "https://www.ed.ac.uk/studying/postgraduate"
+            "applyUrl": "https://www.ed.ac.uk/studying/postgraduate",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.ed.ac.uk/studying/postgraduate"
+                ]
+            }
         },
         {
             "university": "University of Tokyo",
@@ -548,7 +987,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: First Class engineering degree qualifies for Embassy MEXT nomination.",
             "status": "Not Started",
-            "applyUrl": "https://www.i.u-tokyo.ac.jp/edu/course/master/index_e.shtml"
+            "applyUrl": "https://www.i.u-tokyo.ac.jp/edu/course/master/index_e.shtml",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.i.u-tokyo.ac.jp/edu/course/master/index_e.shtml"
+                ]
+            }
         },
         {
             "university": "Tokyo Institute of Technology",
@@ -558,7 +1005,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: Strong background in microprocessors (81%) and hardware/systems.",
             "status": "Not Started",
-            "applyUrl": "https://www.titech.ac.jp/english/admissions"
+            "applyUrl": "https://www.titech.ac.jp/english/admissions",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.titech.ac.jp/english/admissions"
+                ]
+            }
         },
         {
             "university": "Seoul National University (SNU)",
@@ -568,7 +1023,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: First Class (70.85% CWA) meets Korean Embassy GKS quota threshold.",
             "status": "Not Started",
-            "applyUrl": "https://admission.snu.ac.kr/"
+            "applyUrl": "https://admission.snu.ac.kr/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://admission.snu.ac.kr/"
+                ]
+            }
         },
         {
             "university": "POSTECH",
@@ -578,7 +1041,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: 84% in Semiconductor Devices and 81% Microprocessors provide strong research fit.",
             "status": "Not Started",
-            "applyUrl": "https://admission.postech.ac.kr/"
+            "applyUrl": "https://admission.postech.ac.kr/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://admission.postech.ac.kr/"
+                ]
+            }
         },
         {
             "university": "BME Budapest",
@@ -588,17 +1059,33 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "Very High: Strong bilateral quota for Ghanaian STEM First Class graduates.",
             "status": "Not Started",
-            "applyUrl": "https://www.bme.hu/international_admissions"
+            "applyUrl": "https://www.bme.hu/international_admissions",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.bme.hu/international_admissions"
+                ]
+            }
         },
         {
-            "university": "E\u00f6tv\u00f6s Lor\u00e1nd University (ELTE)",
+            "university": "Eötvös Loránd University (ELTE)",
             "region": "Hungary",
             "program": "MSc Computer Science (Autonomous Systems)",
             "funding": "Stipendium Hungaricum Scholarship (100% full ride)",
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: Solid mathematics and algorithms foundations match theoretical curriculum.",
             "status": "Not Started",
-            "applyUrl": "https://www.elte.hu/en/admissions"
+            "applyUrl": "https://www.elte.hu/en/admissions",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.elte.hu/en/admissions"
+                ]
+            }
         },
         {
             "university": "Ghent University",
@@ -608,7 +1095,15 @@
             "cost_profile": "Partially Covered",
             "qual_match": "High: Top-tier academic record supports university Master Mind nomination.",
             "status": "Not Started",
-            "applyUrl": "https://www.ugent.be/en/study/programmes/masters/computersciengineer.htm"
+            "applyUrl": "https://www.ugent.be/en/study/programmes/masters/computersciengineer.htm",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.ugent.be/en/study/programmes/masters/computersciengineer.htm"
+                ]
+            }
         },
         {
             "university": "Chalmers University of Technology",
@@ -618,7 +1113,15 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: Direct synergy between 90% Distributed Systems and Chalmers systems group.",
             "status": "Not Started",
-            "applyUrl": "https://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-systems-and-networks.aspx"
+            "applyUrl": "https://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-systems-and-networks.aspx",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-systems-and-networks.aspx"
+                ]
+            }
         },
         {
             "university": "Lund University",
@@ -628,17 +1131,227 @@
             "cost_profile": "Fully Covered ($0 net)",
             "qual_match": "High: 81% Microprocessors and hardware labs align with embedded track.",
             "status": "Not Started",
-            "applyUrl": "https://www.lunduniversity.lu.se/"
+            "applyUrl": "https://www.lunduniversity.lu.se/",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.lunduniversity.lu.se/"
+                ]
+            }
         },
         {
-            "university": "\u00c9cole Polytechnique",
+            "university": "École Polytechnique",
             "region": "France",
             "program": "Master in Computer Science (Distributed Systems)",
             "funding": "France Excellence Eiffel Master's Program (Full ride)",
             "cost_profile": "Fully Covered ($0 net)",
-            "qual_match": "High: First Class honors attracts French Grande \u00c9cole international sponsorship.",
+            "qual_match": "High: First Class honors attracts French Grande École international sponsorship.",
             "status": "Not Started",
-            "applyUrl": "https://www.polytechnique.edu/en/admissions"
+            "applyUrl": "https://www.polytechnique.edu/en/admissions",
+            "review": {
+                "checked": null,
+                "deadline": null,
+                "note": "2027 programme deadline and funding eligibility not yet verified. Do not rely on legacy estimates; check the official programme page before applying.",
+                "sources": [
+                    "https://www.polytechnique.edu/en/admissions"
+                ]
+            }
+        },
+        {
+            "university": "EDISS consortium",
+            "status": "Not Started",
+            "region": "Europe",
+            "program": "Engineering of Data-intensive Intelligent Software Systems",
+            "funding": "Competitive Erasmus Mundus scholarship; participation waiver and living support",
+            "qual_match": "High: Software Engineering 92 and Distributed Computing 90 align with prerequisites.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://www.master-ediss.eu/upcoming-application-rounds-ediss-intake-7/",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2027-01-12",
+                "note": "First batch. Opens 16 November 2026. English test and academic recommendations needed. Published prior-intake EMJM award is EUR1,400/month plus participation waiver and insurance; reconfirm 2027 award terms.",
+                "sources": [
+                    "https://www.master-ediss.eu/upcoming-application-rounds-ediss-intake-7/",
+                    "https://www.master-ediss.eu/scholarship/"
+                ],
+                "opens": "2026-11-16"
+            }
+        },
+        {
+            "university": "CYBERSURE consortium",
+            "status": "Not Started",
+            "region": "Europe",
+            "program": "MSc Cybersecurity and Assurance",
+            "funding": "Competitive full and partial Erasmus Mundus scholarships",
+            "qual_match": "High: Computer Engineering and technology-risk experience fit cybersecurity.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://www.cybersure-master.eu/admission/fees-and-scholarships",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2027-01-04",
+                "note": "First batch. Opens 16 November 2026. Final degree and consolidated transcript required by deadline for non-EU/EEA applicants. English results deadline 18 January. Full awards include tuition, travel and living support.",
+                "sources": [
+                    "https://www.cybersure-master.eu/admission/fees-and-scholarships",
+                    "https://cybersure-master.eu/faq"
+                ],
+                "opens": "2026-11-16"
+            }
+        },
+        {
+            "university": "University of Saskatchewan",
+            "status": "Not Started",
+            "region": "Canada",
+            "program": "MSc Computer Science",
+            "funding": "Normally tuition at admission plus CAD18,000/year; 20 months of support",
+            "qual_match": "High: Relevant degree and systems coursework; university must assess grade equivalency.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://grad.usask.ca/programs/computer-science.php",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2026-12-15",
+                "note": "First batch. Published September-entry deadline is 15 December; confirm 2027 cycle in portal. Minimum 70% USask equivalent in final two years. Some funding sources require higher grades. Unofficial transcript with grading key accepted initially. IELTS 7.0, no band below 6.5, unless approved exemption.",
+                "sources": [
+                    "https://grad.usask.ca/programs/computer-science.php"
+                ]
+            }
+        },
+        {
+            "university": "IPCVai consortium",
+            "status": "Not Started",
+            "region": "Europe",
+            "program": "AI for Image Processing and Computer Vision",
+            "funding": "Competitive Erasmus Mundus: participation fees plus EUR1,400/month for two years",
+            "qual_match": "High: Engineering background and DSP 82; pursue only with genuine computer-vision interest.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://ipcv.eu/application-and-selection/application/",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2027-02-02",
+                "note": "Opens 1 November 2026; closes at noon Paris time. Engineering degrees accepted. Official English-medium instruction letter accepted.",
+                "sources": [
+                    "https://ipcv.eu/application-and-selection/application/",
+                    "https://ipcv.eu/about-ipcv-program-2/costs-and-funding-2/"
+                ],
+                "opens": "2026-11-01"
+            }
+        },
+        {
+            "university": "Hamad Bin Khalifa University",
+            "status": "Not Started",
+            "region": "Qatar",
+            "program": "MSc Cybersecurity",
+            "funding": "Competitive 75% STEM tuition waiver; selected international masters stipend QAR7,000/month",
+            "qual_match": "High: Engineering and technology-risk experience align; 3.0/4.0 equivalent must be assessed.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://www.hbku.edu.qa/en/cse/admission-requirements",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2027-02-01",
+                "note": "Conditional on funding offer. International deadline 1 February 2027. Standard sponsored masters waiver leaves 25% tuition; stipend not guaranteed.",
+                "sources": [
+                    "https://www.hbku.edu.qa/en/cse/admission-requirements",
+                    "https://www.hbku.edu.qa/en/scholarship"
+                ]
+            }
+        },
+        {
+            "university": "University of New Brunswick",
+            "status": "Not Started",
+            "region": "Canada",
+            "program": "MCS by thesis",
+            "funding": "Supervisor-dependent research and teaching funding; not guaranteed",
+            "qual_match": "High: First Class accepted academically; required core computing subjects present.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://www.unb.ca/fredericton/cs/grad/admission.html",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": null,
+                "note": "Supervisor-funded alternative. Confirm cycle-specific deadline and obtain a written funding offer. Admission alone does not include funding.",
+                "sources": [
+                    "https://www.unb.ca/fredericton/cs/grad/admission.html",
+                    "https://www.unb.ca/fredericton/cs/grad/financials.html"
+                ]
+            }
+        },
+        {
+            "university": "University of British Columbia — Computer Science",
+            "status": "Not Started",
+            "region": "Canada",
+            "program": "MSc Computer Science (thesis)",
+            "funding": "Published minimum CAD33,168/year; TA/RA duties and satisfactory performance; assess fees and Vancouver living costs",
+            "qual_match": "High: Meets published Ghana-wide academic minimum; CS prerequisites and competitive selection still apply.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://www.cs.ubc.ca/students/grad/admissions",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2026-12-15",
+                "opens": "2026-09-15",
+                "note": "Open for September 2027 / January 2028. Thesis funding generally 24 months. Ghana graduates usually exempt from English test, but department may request one. Prepare references and statement of interests.",
+                "sources": [
+                    "https://www.cs.ubc.ca/students/grad/admissions",
+                    "https://www.cs.ubc.ca/students/grad/prospective/funding/financial",
+                    "https://www.grad.ubc.ca/country/ghana"
+                ]
+            }
+        },
+        {
+            "university": "University of British Columbia — ECE",
+            "status": "Not Started",
+            "region": "Canada",
+            "program": "MASc Electrical and Computer Engineering",
+            "funding": "Research funding must be confirmed in offer; do not substitute self-funded MEng",
+            "qual_match": "High: Relevant engineering degree; Ghana minimum met, departmental assessment required.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://ece.ubc.ca/Graduate/Programs/master-applied-science/",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2027-01-15",
+                "opens": "2026-10-15",
+                "note": "Open September 2027 intake. Supporting documents and referees due 31 January 2027. Identify research groups and potential supervisors.",
+                "sources": [
+                    "https://ece.ubc.ca/Graduate/Programs/master-applied-science/"
+                ]
+            }
+        },
+        {
+            "university": "Purdue University — Computer Science",
+            "status": "Not Started",
+            "region": "USA",
+            "program": "MS Computer Science",
+            "funding": "Funding not confirmed; require a written assistantship offer before treating as funded",
+            "qual_match": "Medium: Relevant computing coursework; competitive research application.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://cs.purdue.edu/graduate/admission/steps.html",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": "2026-12-01",
+                "opens": null,
+                "note": "Fall 2027 applications available. Spring 2027 deadline passed 1 October 2026. Separate programme from the existing Purdue ECE entry. Academic SOP, personal history, CS supplement, references, transcript and English evidence if required. GRE not required.",
+                "sources": [
+                    "https://cs.purdue.edu/graduate/admission/steps.html"
+                ]
+            }
+        },
+        {
+            "university": "University of Twente",
+            "status": "Not Started",
+            "region": "Netherlands",
+            "program": "MSc Computer Science",
+            "funding": "UTS EUR3,000–22,000/year competitive; not necessarily enough for tuition and living",
+            "qual_match": "High: Computer Engineering accepted; CS, mathematics and research credit equivalency must be checked.",
+            "cost_profile": "Funding offer required",
+            "applyUrl": "https://www.utwente.nl/en/education/master/programmes/computer-science/admission/admission-international/",
+            "review": {
+                "checked": "2026-10-25",
+                "deadline": null,
+                "opens": null,
+                "note": "September 2027 funding route: obtain admission before UTS scholarship deadline 1 April 2027. UTS opened 15 October 2026. Allow up to eight weeks for admission; English evidence required. EUR100 application fee. Programme-specific admission deadline needs confirmation; scholarship date is not the admission deadline.",
+                "sources": [
+                    "https://www.utwente.nl/en/education/master/programmes/computer-science/admission/admission-international/"
+                ]
+            }
         }
     ],
     "cost_stats": {
@@ -657,7 +1370,8 @@
             "gross": 42000,
             "coverage_type": "Full Ride (100%)",
             "scholarship_value": 42000,
-            "net": 0
+            "net": 0,
+            "review_pending": true
         },
         {
             "university": "University of Cape Town (UCT)",
@@ -1119,7 +1833,8 @@
             "gross": 72000,
             "coverage_type": "Full Ride (100%)",
             "scholarship_value": 72000,
-            "net": 0
+            "net": 0,
+            "review_pending": true
         },
         {
             "university": "Khalifa University",
@@ -1298,7 +2013,7 @@
             "net": 0
         },
         {
-            "university": "E\u00f6tv\u00f6s Lor\u00e1nd University (ELTE)",
+            "university": "Eötvös Loránd University (ELTE)",
             "region": "Hungary",
             "duration": 2.0,
             "tuition": 6000.0,
@@ -1342,7 +2057,7 @@
             "net": 0
         },
         {
-            "university": "\u00c9cole Polytechnique",
+            "university": "École Polytechnique",
             "region": "France",
             "duration": 2.0,
             "tuition": 12000.0,
@@ -1354,7 +2069,7 @@
         }
     ],
     "schol_stats": {
-        "total": 26,
+        "total": 34,
         "full_funded": 26,
         "max_value": 65000,
         "active": 26
@@ -1367,11 +2082,13 @@
             "coverage": "100% Full Ride (Tuition, Stipend, Airfare, Laptop)",
             "value": 42000.0,
             "eligibility": "Sub-Saharan African citizen; First Class / Upper Second; demonstrated leadership & giving back",
-            "deadline": "Nov 19, 2026 (Declaration form due Oct 19)",
+            "deadline": "2027 date unverified",
             "materials": "Academic transcripts, 3 leadership & impact essays, 2 reference letters, CV",
             "positioning": "Tier-1 Priority: 70.85% First Class directly qualifies; strong match for distributed computing & tech leadership.",
             "status": "Not Started",
-            "applyUrl": "https://mastercardfdn.org/en/what-we-do/all-programs/mastercard-foundation-scholars-program/"
+            "applyUrl": "https://mastercardfdn.org/en/what-we-do/all-programs/mastercard-foundation-scholars-program/",
+            "legacy_deadline": "Nov 19, 2026 (Declaration form due Oct 19)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Chinese Government Scholarship (CSC Type A - Bilateral)",
@@ -1380,11 +2097,13 @@
             "coverage": "Fully Funded (Full Tuition, Housing, Medical, 3,000 CNY/mo)",
             "value": 12500.0,
             "eligibility": "Ghanaian citizen under 35; Bachelor's degree (First Class / 2nd Upper); vetted via Ghana Scholarships Authority",
-            "deadline": "Early Feb 2027 (Annual: Dec–Feb)",
+            "deadline": "2027 date unverified",
             "materials": "Online CSC portal, Ghana Scholarships Authority validation, physical exam form, 2 recommendation letters, study proposal",
             "positioning": "Extremely high acceptance probability for Ghanaian First Class holders; covers top Chinese labs (Tsinghua, SJTU, ZJU, UESTC).",
             "status": "Not Started",
-            "applyUrl": "https://www.campuschina.org/"
+            "applyUrl": "https://www.campuschina.org/",
+            "legacy_deadline": "Early Feb 2027 (Annual: Dec–Feb)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Chinese Government Scholarship (CSC Type B - University Track)",
@@ -1393,11 +2112,13 @@
             "coverage": "Fully Funded (Full Tuition, On-campus Housing, 3,000 CNY/mo)",
             "value": 13000.0,
             "eligibility": "Non-Chinese citizen; Bachelor's degree with strong academic record; Professor acceptance letter strongly advised",
-            "deadline": "Mar 15, 2027 (Annual: Dec–Apr)",
+            "deadline": "2027 date unverified",
             "materials": "University portal application + CSC Agency code, pre-admission / acceptance letter from professor, transcript, research plan",
             "positioning": "High accessibility: Professor pre-acceptance in microprocessors (81%) or networking (72%) virtually guarantees award.",
             "status": "Not Started",
-            "applyUrl": "https://www.campuschina.org/"
+            "applyUrl": "https://www.campuschina.org/",
+            "legacy_deadline": "Mar 15, 2027 (Annual: Dec–Apr)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Chevening Scholarships",
@@ -1405,12 +2126,14 @@
             "scope": "1-Year Master's in Computer Science, Software Eng, AI & Cyber (UK Universities)",
             "coverage": "100% Full Ride (Tuition, Monthly Living Stipend, Flights, Arrival Grant)",
             "value": 48000.0,
-            "eligibility": "Ghanaian citizen; STRICT minimum 2 years work/leadership experience (2,800 hrs); First Class/2:1; 2-year Ghana return pledge",
-            "deadline": "Oct 2027 (2028 Intake Target)",
+            "eligibility": "Not currently eligible on supplied 2025 graduation timeline: two years after undergraduate completion and 2,800 post-degree work hours required.",
+            "deadline": "Not eligible this cycle",
             "materials": "4 Chevening essays (Leadership, Networking, UK Study, Career Plan), transcript, 2 references, unconditional UK offer",
-            "positioning": "Deferred: Requires accumulating more full-time post-graduate hours before applying.",
+            "positioning": "Do not spend application effort this cycle. Reassess in a future round.",
             "status": "Not Started",
-            "applyUrl": "https://www.chevening.org/"
+            "applyUrl": "https://www.chevening.org/resource-hub/guidance/eligibility/",
+            "legacy_deadline": "Oct 2027 (2028 Intake Target)",
+            "deadline_review": "Eligibility checked"
         },
         {
             "name": "Commonwealth Master's Scholarships",
@@ -1419,11 +2142,13 @@
             "coverage": "100% Full Ride (Full Tuition, £1,347–£1,652/mo Stipend, Flights)",
             "value": 45000.0,
             "eligibility": "Citizen of Commonwealth country (Ghana); First Class degree mandatory for high ranking; demonstrated financial need",
-            "deadline": "Oct 20, 2026 (Agency deadline is earlier)",
+            "deadline": "2026-10-20",
             "materials": "CSC online application, national nominating agency nomination (Ghana Scholarships Authority), personal statement, 3 references",
-            "positioning": "Highest academic alignment: First Class Honours gives top tier score in national nominating review.",
+            "positioning": "2027/28 Commonwealth Masters round closed 20 October 2026, 16:00 BST. Shared Scholarships is a separate upcoming route.",
             "status": "Not Started",
-            "applyUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/"
+            "applyUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonweal",
+            "legacy_deadline": "Oct 20, 2026 (Agency deadline is earlier)",
+            "deadline_review": "Closed 2027/28 round"
         },
         {
             "name": "Gates Cambridge Scholarship",
@@ -1432,11 +2157,13 @@
             "coverage": "100% Full Ride (Full University Fee, £20,000/yr Stipend, Airfare, Research Grants)",
             "value": 65000.0,
             "eligibility": "Outstanding intellectual ability (First Class Honours); leadership capacity; commitment to improving lives of others",
-            "deadline": "Dec 08, 2026",
+            "deadline": "2027 date unverified",
             "materials": "Cambridge graduate application + Gates statement (500 words) + Gates academic reference, research proposal, CV",
             "positioning": "Hyper-selective global benchmark: Requires demonstrating how distributed computing/systems research solves systemic African challenges.",
             "status": "Not Started",
-            "applyUrl": "https://www.gatescambridge.org/"
+            "applyUrl": "https://www.gatescambridge.org/",
+            "legacy_deadline": "Dec 08, 2026",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "DAAD Development-Related Postgraduate Courses (EPOS)",
@@ -1445,11 +2172,13 @@
             "coverage": "Fully Funded (Tuition Waiver, €934/mo Stipend, Travel, Insurance, German Course)",
             "value": 24000.0,
             "eligibility": "Bachelor's degree with above-average grades; STRICT minimum 2 years relevant professional work experience post-graduation",
-            "deadline": "Oct 2027 (2028 Intake Target)",
+            "deadline": "2027 date unverified",
             "materials": "DAAD application form, Europass CV, Hand-signed Motivation Letter (linking to development), 2 professional references",
             "positioning": "Deferred: You currently lack the required 2 years of post-graduate experience for this specific DAAD track.",
             "status": "Not Started",
-            "applyUrl": "https://www.daad.de/en/study-and-research-in-germany/scholarships/"
+            "applyUrl": "https://www.daad.de/en/study-and-research-in-germany/scholarships/",
+            "legacy_deadline": "Oct 2027 (2028 Intake Target)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "DAAD Graduate Master's Study Scholarships",
@@ -1458,11 +2187,13 @@
             "coverage": "Fully Funded (Tuition Free, €934/mo Stipend, Health Insurance, Study Allowance)",
             "value": 22000.0,
             "eligibility": "Bachelor's degree within last 6 years; First Class Honours meets high academic threshold; NO minimum work experience required",
-            "deadline": "Nov 15, 2026",
+            "deadline": "2027 date unverified",
             "materials": "DAAD portal submission, detailed CV, study project plan/motivation, 1 academic recommendation, university admission proof",
             "positioning": "Perfect match for Germany's tuition-free technical universities; bypasses the €11,208/yr blocked account requirement.",
             "status": "Not Started",
-            "applyUrl": "https://www.daad.de/en/study-and-research-in-germany/scholarships/"
+            "applyUrl": "https://www.daad.de/en/study-and-research-in-germany/scholarships/",
+            "legacy_deadline": "Nov 15, 2026",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Fulbright Foreign Student Program",
@@ -1471,11 +2202,13 @@
             "coverage": "100% Full Ride (Full Tuition, Monthly Living Stipend, Health Insurance, Round-trip Airfare)",
             "value": 55000.0,
             "eligibility": "Ghanaian citizen resident in Ghana; First Class or Second Class Upper degree; strong leadership; 2-year home return requirement",
-            "deadline": "Jun 2027 (2028 Intake Target)",
+            "deadline": "2027 date unverified",
             "materials": "Fulbright online application, 2 essays (Study Objective & Personal Statement), 3 recommendation letters, GRE/TOEFL",
             "positioning": "Deferred: The 2027 intake deadline passed in June 2026. Next window is for Fall 2028 entry.",
             "status": "Not Started",
-            "applyUrl": "https://foreign.fulbrightonline.org/"
+            "applyUrl": "https://foreign.fulbrightonline.org/",
+            "legacy_deadline": "Jun 2027 (2028 Intake Target)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "KAUST Fellowship",
@@ -1484,11 +2217,13 @@
             "coverage": "100% Full Ride (100% Tuition Waiver, $20,000–$30,000/yr Net Cash Stipend, Housing, Health)",
             "value": 58000.0,
             "eligibility": "Bachelor's in STEM; First Class Honours aligns with 3.5+ GPA requirement; strong quantitative and project record",
-            "deadline": "Jan 03, 2027",
+            "deadline": "2027 date unverified",
             "materials": "Online application, official transcripts, statement of purpose, CV, 3 recommendation letters (GRE optional)",
             "positioning": "Maximum financial comfort ($0 out-of-pocket); state-of-the-art supercomputing facilities; high acceptance rate for First Class.",
             "status": "Not Started",
-            "applyUrl": "https://admissions.kaust.edu.sa/"
+            "applyUrl": "https://admissions.kaust.edu.sa/",
+            "legacy_deadline": "Jan 03, 2027",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Global Korea Scholarship (GKS-G)",
@@ -1497,11 +2232,13 @@
             "coverage": "100% Full Ride (Full Tuition, 1,000,000 KRW/mo Stipend, Settlement, Flights, 1-yr Korean Course)",
             "value": 26000.0,
             "eligibility": "Ghanaian citizen; under 40 years; CWA ≥80% or GPA ≥2.64/4.0 (Applicant's 70.85% First Class qualifies); embassy/university track",
-            "deadline": "Mar 05, 2027 (Annual: Feb–Mar)",
+            "deadline": "2027 date unverified",
             "materials": "NIIED application form, personal statement, study plan, 1 recommendation letter, consular legalized degree certificates",
             "positioning": "High synergy with KAIST/Seoul Tech; strong match for hardware/semiconductors (84%) and microprocessors (81%).",
             "status": "Not Started",
-            "applyUrl": "https://www.studyinkorea.go.kr/"
+            "applyUrl": "https://www.studyinkorea.go.kr/",
+            "legacy_deadline": "Mar 05, 2027 (Annual: Feb–Mar)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Japanese Government MEXT Scholarship",
@@ -1510,11 +2247,13 @@
             "coverage": "100% Full Ride (100% Tuition & Exam Fees, 144,000 JPY/mo Stipend, Round-trip Flight)",
             "value": 25000.0,
             "eligibility": "Ghanaian citizen born on or after April 2, 1990; completed 16 years of schooling (Bachelor's); GPA ≥2.30/3.0",
-            "deadline": "May 2027 (2028 Intake Target)",
+            "deadline": "2027 date unverified",
             "materials": "MEXT application form, field of study & research plan, official transcript, graduation certificate, health certificate",
             "positioning": "Deferred: The 2027 Embassy track closed in May 2026. Next window is for 2028 entry.",
             "status": "Not Started",
-            "applyUrl": "https://www.mext.go.jp/en/policy/education/highered/title02/detail02/1373897.htm"
+            "applyUrl": "https://www.mext.go.jp/en/policy/education/highered/title02/detail02/1373897.htm",
+            "legacy_deadline": "May 2027 (2028 Intake Target)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Erasmus Mundus Joint Master Degrees (EMJMD)",
@@ -1523,24 +2262,28 @@
             "coverage": "100% Full Ride (€1,400/mo Living Allowance, Full Tuition & Insurance, €3,000/yr Travel Grant)",
             "value": 32000.0,
             "eligibility": "Completed Bachelor's in CS/CE; outstanding academic transcript (First Class Honours); English proficiency (C1/IELTS 6.5+)",
-            "deadline": "Jan 15, 2027 (Annual: Oct–Feb)",
+            "deadline": "2027 date unverified",
             "materials": "Consortium application portal, CV (Europass), Motivation Letter, 2 academic recommendation letters, certified transcripts",
             "positioning": "Multi-country European degree; 90% Distributed Computing & 92% Software Engineering perfectly target distributed systems EMJMD tracks.",
             "status": "Not Started",
-            "applyUrl": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en"
+            "applyUrl": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+            "legacy_deadline": "Jan 15, 2027 (Annual: Oct–Feb)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Swiss Government Excellence Scholarships (FCS)",
             "body": "Swiss Federal Commission for Scholarships for Foreign Students",
-            "scope": "Master's / Research Fellowships in Computer Science (ETH Zurich, EPFL)",
-            "coverage": "Fully Funded (CHF 1,920/mo Stipend, Health Insurance, Flight Allowance, Tuition Exemption)",
-            "value": 36000.0,
-            "eligibility": "Ghanaian citizen holding First Class Bachelor's degree; academic endorsement letter from ETH Zurich/EPFL hosting professor required",
-            "deadline": "Nov 30, 2026",
+            "scope": "Research scholarships; initial arts masters only in restricted countries",
+            "coverage": "Not applicable to this proposed MSc",
+            "value": null,
+            "eligibility": "Not a route to a first taught Computer Science MSc. Research awards generally require a completed master’s; arts route is not applicable.",
+            "deadline": "Not applicable",
             "materials": "Swiss Embassy application dossier, professor support letter, research proposal, 2 confidential references, medical certificate",
-            "positioning": "Elite European opportunity; securing an EPFL/ETH professor supervisor endorsement based on systems research is the pivotal gateway.",
+            "positioning": "Do not prioritise for this application cycle. ETH ESOP is a separate, relevant but competitive route.",
             "status": "Not Started",
-            "applyUrl": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html"
+            "applyUrl": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships",
+            "legacy_deadline": "Nov 30, 2026",
+            "deadline_review": "Screened out: degree level"
         },
         {
             "name": "DSU Regional Scholarship (Lombardy)",
@@ -1549,11 +2292,13 @@
             "coverage": "Fully Funded (Full Tuition Exemption, Free Student Housing, Daily Meal Card, €7,200/yr Cash)",
             "value": 18000.0,
             "eligibility": "Admitted student to PoliMi; family income and assets assessed via ISEE Parificato (< €25,000 threshold)",
-            "deadline": "Aug 31, 2027 (Annual: Jun–Aug)",
+            "deadline": "2027 date unverified",
             "materials": "PoliMi admission letter, consular family income & property affidavits legalized by Italian Embassy in Accra, ISEE declaration",
             "positioning": "Reliable safety funding; African students with First Class admissions almost universally qualify for tier-1 DSU economic awards.",
             "status": "Not Started",
-            "applyUrl": "https://www.polimi.it/en/education/all-scholarships-and-benefits/dsu-scholarship"
+            "applyUrl": "https://www.polimi.it/en/education/all-scholarships-and-benefits/dsu-scholarship",
+            "legacy_deadline": "Aug 31, 2027 (Annual: Jun–Aug)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "EDISU Piemonte Regional Scholarship",
@@ -1562,11 +2307,13 @@
             "coverage": "Fully Funded (100% Tuition Waiver, Free Hall Accommodation, Canteen Meals, €7,000/yr Cash)",
             "value": 17500.0,
             "eligibility": "Admitted to PoliTo; family economic standing below ISEE threshold; First Class KNUST engineering degree secures admission",
-            "deadline": "Sep 04, 2027 (Annual: Jul–Sep)",
+            "deadline": "2027 date unverified",
             "materials": "PoliTo admission offer, certified translated income documents, consular declaration of value (DOV), EDISU application",
             "positioning": "Identical low-risk funding structure to PoliMi; premier microelectronics and automotive embedded systems laboratories.",
             "status": "Not Started",
-            "applyUrl": "https://www.edisu.piemonte.it/"
+            "applyUrl": "https://www.edisu.piemonte.it/",
+            "legacy_deadline": "Sep 04, 2027 (Annual: Jul–Sep)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Master Mind Scholarships (Flanders, Belgium)",
@@ -1575,11 +2322,13 @@
             "coverage": "Substantial Grant (€10,000 Grant/yr + Full Tuition Fee Waiver down to ~€131 admin fee)",
             "value": 22000.0,
             "eligibility": "Outstanding academic record (GPA ≥3.5/4.0 or equivalent, verified by KNUST First Class 70.85%); institutional nomination",
-            "deadline": "Feb 15, 2027 (Annual: Dec–Mar)",
+            "deadline": "2027 date unverified",
             "materials": "University application to KU Leuven/Ghent, Master Mind dossier, letter of motivation, 2 reference letters, English test",
             "positioning": "High prestige; candidate's strong algorithmic coursework and high marks in systems math make an excellent case for university nomination.",
             "status": "Not Started",
-            "applyUrl": "https://www.mastermindscholarships.be/"
+            "applyUrl": "https://www.mastermindscholarships.be/",
+            "legacy_deadline": "Feb 15, 2027 (Annual: Dec–Mar)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "SI Scholarship for Global Professionals",
@@ -1588,11 +2337,13 @@
             "coverage": "100% Full Ride (Full Tuition Direct Payment, SEK 12,000/mo Living, SEK 15,000 Flights, SI Network)",
             "value": 38000.0,
             "eligibility": "Citizen of eligible countries (Ghana); STRICT minimum 3,000 hours certified work/leadership experience",
-            "deadline": "Feb 2028 (2028 Intake Target)",
+            "deadline": "2027 date unverified",
             "materials": "University Admissions Sweden application + SI portal application, employer work certs, leadership template, 2 references, CV",
             "positioning": "Deferred: Requires accumulating more formal work hours before applying.",
             "status": "Not Started",
-            "applyUrl": "https://si.se/en/apply/scholarships/"
+            "applyUrl": "https://si.se/en/apply/scholarships/",
+            "legacy_deadline": "Feb 2028 (2028 Intake Target)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "France Excellence Eiffel Master's Program",
@@ -1601,11 +2352,13 @@
             "coverage": "Fully Funded (Monthly Allowance €1,181, Return International Airfare, Insurance, Priority Housing)",
             "value": 25000.0,
             "eligibility": "Non-French nationality; under 25 years old for Master's; nominated exclusively by French higher education institution",
-            "deadline": "Jan 10, 2027 (Annual: Oct–Jan)",
+            "deadline": "2027 date unverified",
             "materials": "Institutional application through French Grande École or University, academic transcripts, resume, motivation letter",
             "positioning": "Institutional nomination required; First Class record from KNUST readily attracts French engineering schools seeking international talent.",
             "status": "Not Started",
-            "applyUrl": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence"
+            "applyUrl": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+            "legacy_deadline": "Jan 10, 2027 (Annual: Oct–Jan)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "SINGA (Singapore International Graduate Award)",
@@ -1614,11 +2367,13 @@
             "coverage": "100% Full Ride (Full Tuition Fees, SGD 2,700–3,200/mo Stipend, Flights SGD 1,500, Settling Grant)",
             "value": 40000.0,
             "eligibility": "Open to all international graduates; First Class Honours in Engineering/Computing; strong passion for research",
-            "deadline": "Dec 01, 2026",
+            "deadline": "2027 date unverified",
             "materials": "Online SINGA portal form, certified transcripts, 2 referee reports, passport, proposed research interest statements",
             "positioning": "Direct pathway to world-class research at NTU/NUS/A*STAR; high marks in Distributed Systems (90%) and Control (93%) are strong catalysts.",
             "status": "Not Started",
-            "applyUrl": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa"
+            "applyUrl": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
+            "legacy_deadline": "Dec 01, 2026",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "MBZUAI Graduate Research Scholarship",
@@ -1627,11 +2382,13 @@
             "coverage": "100% Full Ride (100% Tuition Waiver, AED 8,000/mo Cash Stipend, Housing, Health, Flights)",
             "value": 46000.0,
             "eligibility": "Bachelor's in CS/CE/EE with minimum CGPA 3.2/4.0; First Class meets criteria; GRE recommended; entry exam & interview",
-            "deadline": "Dec 15, 2026 (Annual: Sep–Dec)",
+            "deadline": "2027 date unverified",
             "materials": "Online application, academic transcripts, statement of purpose, research proposal, 2 recommendation letters, IELTS 6.5",
             "positioning": "Exceptional funding with zero personal financial outlay; rapidly rising global AI research center with cutting-edge GPU clusters.",
             "status": "Not Started",
-            "applyUrl": "https://mbzuai.ac.ae/admissions/"
+            "applyUrl": "https://mbzuai.ac.ae/admissions/",
+            "legacy_deadline": "Dec 15, 2026 (Annual: Sep–Dec)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Khalifa University Master's Research Scholarship",
@@ -1640,11 +2397,13 @@
             "coverage": "100% Full Ride (Full Tuition Waiver, AED 4,000/mo Stipend, Medical Insurance, Conference Grants)",
             "value": 38000.0,
             "eligibility": "Bachelor's in relevant discipline with CGPA ≥3.25/4.0; First Class degree fully qualifies; IELTS ≥6.5 or TOEFL iBT ≥91",
-            "deadline": "Jan 20, 2027 (Annual: Oct–Jan)",
+            "deadline": "2027 date unverified",
             "materials": "Official degree transcripts, CV, research statement, 2 academic recommendation letters, passport copy, GRE score report",
             "positioning": "Premier Middle Eastern engineering institute; seamless curriculum match for hardware, robotics, and communication systems.",
             "status": "Not Started",
-            "applyUrl": "https://www.ku.ac.ae/admissions/"
+            "applyUrl": "https://www.ku.ac.ae/admissions/",
+            "legacy_deadline": "Jan 20, 2027 (Annual: Oct–Jan)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Canadian Graduate Research Assistantship Packages",
@@ -1653,11 +2412,13 @@
             "coverage": "Fully Funded (Guaranteed Annual Funding CAD $24,000–$32,000 covering Tuition + Living)",
             "value": 25000.0,
             "eligibility": "Admission to thesis-based graduate program; faculty supervisor endorsement; minimum First Class GPA equivalent",
-            "deadline": "Jan 15, 2027 (Annual: Nov–Feb)",
+            "deadline": "2027 date unverified",
             "materials": "Graduate application, prospective supervisor contact/endorsement, CV, research proposal, 3 academic references, transcripts",
             "positioning": "High ROI and PR pathways; securing a professor supervisor in distributed systems or software engineering unlocks automatic funding.",
             "status": "Not Started",
-            "applyUrl": "https://uwaterloo.ca/future-graduate-students/finances/funding"
+            "applyUrl": "https://uwaterloo.ca/future-graduate-students/finances/funding",
+            "legacy_deadline": "Jan 15, 2027 (Annual: Nov–Feb)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Ghana Scholarships Authority Bilateral State Scheme",
@@ -1666,11 +2427,13 @@
             "coverage": "Fully Funded (Government Tuition Exemption, University Dormitory, Monthly Foreign Stipend)",
             "value": 16000.0,
             "eligibility": "Ghanaian citizen; resident in Ghana; valid Ghana Card; First Class or Second Class Upper; district & national interview",
-            "deadline": "Sep 15, 2026 / Dec 2026 (Rolling Calls)",
+            "deadline": "2027 date unverified",
             "materials": "Ghana Scholarships Authority portal registration, transcripts, degree certificate, medical clearance, interview screening",
             "positioning": "Direct state-sponsored bilateral quota; national mandate prioritizing STEM fields; First Class degree gives top quartile placement.",
             "status": "Not Started",
-            "applyUrl": "https://gsa.gov.gh/"
+            "applyUrl": "https://gsa.gov.gh/",
+            "legacy_deadline": "Sep 15, 2026 / Dec 2026 (Rolling Calls)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Stipendium Hungaricum Scholarship",
@@ -1679,11 +2442,13 @@
             "coverage": "Fully Funded (100% Tuition Exemption, Monthly Stipend HUF 43,700, Free Dormitory, Medical)",
             "value": 14000.0,
             "eligibility": "Nominated by Ghana Scholarships Authority; Bachelor's degree with strong academic record; entrance exam",
-            "deadline": "Jan 15, 2027 (Annual: Nov–Jan)",
+            "deadline": "2027 date unverified",
             "materials": "DreamApply online dossier + Ghana Scholarships Authority portal upload, motivation letter, medical certificate, transcript",
             "positioning": "Highly structured bilateral route with designated Ghanaian quotas; strong computer science departments with complete English curricula.",
             "status": "Not Started",
-            "applyUrl": "https://stipendiumhungaricum.hu/"
+            "applyUrl": "https://stipendiumhungaricum.hu/",
+            "legacy_deadline": "Jan 15, 2027 (Annual: Nov–Jan)",
+            "deadline_review": "Unverified legacy record"
         },
         {
             "name": "Aalto University International Scholarship",
@@ -1692,130 +2457,279 @@
             "coverage": "Full Tuition Waiver (100% Tuition Exemption worth €15,000/yr; supplementary living grants for top 5%)",
             "value": 17000.0,
             "eligibility": "Outstanding Bachelor's degree in Computer Science/Engineering (First Class); competitive academic merit ranking",
-            "deadline": "Jan 08, 2027 (Annual: Dec–Jan)",
+            "deadline": "2027 date unverified",
             "materials": "Studyinfo.fi portal application, degree certificate, transcripts with syllabus descriptions, motivation letter, CV, English test",
             "positioning": "Renowned European tech ecosystem; 100% tuition waiver substantially reduces Scandinavian living burden.",
             "status": "Not Started",
-            "applyUrl": "https://www.aalto.fi/en/study-options/aalto-university-scholarships"
+            "applyUrl": "https://www.aalto.fi/en/study-options/aalto-university-scholarships",
+            "legacy_deadline": "Jan 08, 2027 (Annual: Dec–Jan)",
+            "deadline_review": "Unverified legacy record"
+        },
+        {
+            "name": "Commonwealth Shared Scholarships — 2027/28",
+            "status": "Not Started",
+            "body": "UK Commonwealth Scholarship Commission",
+            "scope": "2027 postgraduate study; see eligibility",
+            "coverage": "Tuition and living support through selected university courses",
+            "value": null,
+            "eligibility": "Ghana residency, First Class, financial need and no high-income-country study/work of one year or more confirmed by applicant. Initial eligibility screen supported; must select an approved 2027 course and satisfy all award conditions.",
+            "deadline": "Exact date not announced",
+            "materials": "CV, complete transcript, degree certificate, references and tailored motivation; check award-specific requirements.",
+            "positioning": "Expected opening early November 2026; closing mid-December. Approved 2027 course list expected November. Do not submit using prior-year course list.",
+            "applyUrl": "https://cscuk.fcdo.gov.uk/commonwealth-shared-scholarship-university-applications/",
+            "deadline_review": "Upcoming; conditional eligibility",
+            "review": {
+                "checked": "2026-10-25",
+                "note": "Expected opening early November 2026; closing mid-December. Approved 2027 course list expected November. Do not submit using prior-year course list.",
+                "sources": [
+                    "https://cscuk.fcdo.gov.uk/commonwealth-shared-scholarship-university-applications/"
+                ]
+            }
+        },
+        {
+            "name": "Mastercard Foundation — Cambridge 2027/28",
+            "status": "Not Started",
+            "body": "Mastercard Foundation / Cambridge",
+            "scope": "2027 postgraduate study; see eligibility",
+            "coverage": "Fully funded scholarship; competitive selection",
+            "value": null,
+            "eligibility": "African applicant/residency and eligible course required; commitment to community and sustainability/climate resilience must be demonstrated.",
+            "deadline": "2026-12-02",
+            "materials": "CV, complete transcript, degree certificate, references and tailored motivation; check award-specific requirements.",
+            "positioning": "OPEN. 2 December is a conservative planning target, not a reconciled deadline: department lists 2 December and course directory lists 8 December. Confirm before relying on the later date.",
+            "applyUrl": "https://www.mastercardfoundation.fund.cam.ac.uk/apply/eligibility",
+            "deadline_review": "Date conflict; early planning target",
+            "review": {
+                "checked": "2026-10-25",
+                "note": "OPEN. 2 December is a conservative planning target, not a reconciled deadline: department lists 2 December and course directory lists 8 December. Confirm before relying on the later date.",
+                "sources": [
+                    "https://www.mastercardfoundation.fund.cam.ac.uk/apply/eligibility"
+                ]
+            }
+        },
+        {
+            "name": "Erasmus Mundus — EDISS 2027",
+            "status": "Not Started",
+            "body": "European Union / EDISS",
+            "scope": "2027 postgraduate study; see eligibility",
+            "coverage": "Competitive participation waiver, living support and insurance",
+            "value": null,
+            "eligibility": "Relevant computing degree; English test and academic recommendations required.",
+            "deadline": "2027-01-12",
+            "materials": "CV, complete transcript, degree certificate, references and tailored motivation; check award-specific requirements.",
+            "positioning": "Opens 16 November 2026. Apply in scholarship round, not tuition-only or self-funded round. Published preceding-intake stipend EUR1,400/month; confirm 2027 terms.",
+            "applyUrl": "https://www.master-ediss.eu/upcoming-application-rounds-ediss-intake-7/",
+            "deadline_review": "Verified 2027 scholarship round",
+            "review": {
+                "checked": "2026-10-25",
+                "note": "Opens 16 November 2026. Apply in scholarship round, not tuition-only or self-funded round. Published preceding-intake stipend EUR1,400/month; confirm 2027 terms.",
+                "sources": [
+                    "https://www.master-ediss.eu/upcoming-application-rounds-ediss-intake-7/"
+                ]
+            }
+        },
+        {
+            "name": "Erasmus Mundus — CYBERSURE 2027",
+            "status": "Not Started",
+            "body": "European Union / CYBERSURE",
+            "scope": "2027 postgraduate study; see eligibility",
+            "coverage": "Competitive tuition, travel and living support; partial awards also available",
+            "value": null,
+            "eligibility": "Relevant degree and complete final academic documents; English test required under current exemption rules.",
+            "deadline": "2027-01-04",
+            "materials": "CV, complete transcript, degree certificate, references and tailored motivation; check award-specific requirements.",
+            "positioning": "Opens 16 November 2026. English results due 18 January.",
+            "applyUrl": "https://www.cybersure-master.eu/admission/fees-and-scholarships",
+            "deadline_review": "Verified 2027 scholarship round",
+            "review": {
+                "checked": "2026-10-25",
+                "note": "Opens 16 November 2026. English results due 18 January.",
+                "sources": [
+                    "https://www.cybersure-master.eu/admission/fees-and-scholarships"
+                ]
+            }
+        },
+        {
+            "name": "Erasmus Mundus — IPCVai 2027",
+            "status": "Not Started",
+            "body": "European Union / IPCVai",
+            "scope": "2027 postgraduate study; see eligibility",
+            "coverage": "Participation fees plus EUR1,400/month for two years for scholarship winners",
+            "value": null,
+            "eligibility": "Engineering degree accepted; genuine computer-vision motivation; official English-medium letter accepted.",
+            "deadline": "2027-02-02",
+            "materials": "CV, complete transcript, degree certificate, references and tailored motivation; check award-specific requirements.",
+            "positioning": "Opens 1 November 2026; closes noon Paris time.",
+            "applyUrl": "https://ipcv.eu/application-and-selection/application/",
+            "deadline_review": "Verified 2027 scholarship round",
+            "review": {
+                "checked": "2026-10-25",
+                "note": "Opens 1 November 2026; closes noon Paris time.",
+                "sources": [
+                    "https://ipcv.eu/application-and-selection/application/"
+                ]
+            }
+        },
+        {
+            "name": "University of Twente Scholarship — 2027",
+            "status": "Not Started",
+            "body": "University of Twente",
+            "scope": "2027 postgraduate study; see eligibility",
+            "coverage": "EUR3,000–22,000 for one year; conditional renewal",
+            "value": null,
+            "eligibility": "Non-EU/EEA; admission to eligible MSc required first. Competitive merit selection; funding gap possible.",
+            "deadline": "2027-04-01",
+            "materials": "CV, complete transcript, degree certificate, references and tailored motivation; check award-specific requirements.",
+            "positioning": "Open since 15 October 2026. Scholarship closes 16:00 as stated CET on official page; verify portal timezone. Allow admission lead time.",
+            "applyUrl": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/",
+            "deadline_review": "Verified 2027 scholarship round",
+            "review": {
+                "checked": "2026-10-25",
+                "note": "Open since 15 October 2026. Scholarship closes 16:00 as stated CET on official page; verify portal timezone. Allow admission lead time.",
+                "sources": [
+                    "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/"
+                ]
+            }
+        },
+        {
+            "name": "Oxford Clarendon — 2027 ACS",
+            "body": "University of Oxford",
+            "scope": "2027 MSc study",
+            "deadline": "2027-01-06",
+            "coverage": "Full course fees and living-expense grant",
+            "eligibility": "All nationalities; outstanding academic merit/potential. Competitive reach, not assured funding.",
+            "applyUrl": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+            "value": null,
+            "status": "Not Started",
+            "materials": "Transcript, degree certificate, CV, references; course and award requirements apply.",
+            "positioning": "Automatic consideration with MSc Advanced Computer Science application by 6 January 2027 noon UK. Course eligibility still applies.",
+            "deadline_review": "Official 2027 date; conditional competitive eligibility",
+            "review": {
+                "checked": "2026-10-25",
+                "note": "Automatic consideration with MSc Advanced Computer Science application by 6 January 2027 noon UK. Course eligibility still applies.",
+                "sources": [
+                    "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants"
+                ]
+            }
+        },
+        {
+            "name": "ETH ESOP — Autumn 2027",
+            "body": "ETH Zurich",
+            "scope": "2027 MSc study",
+            "deadline": "2026-11-30",
+            "coverage": "CHF13,500 per semester plus tuition waiver for regular programme duration",
+            "eligibility": "Top 10% of bachelor degree; applicant standing requires confirmation. Must meet MSc admission conditions.",
+            "applyUrl": "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html/",
+            "value": null,
+            "status": "Not Started",
+            "materials": "Transcript, degree certificate, CV, references; course and award requirements apply.",
+            "positioning": "Opens 1 November; closes 30 November 2026 11:59 AM CET / 10:59 AM Ghana. Requires independently authored thesis pre-proposal and references.",
+            "deadline_review": "Official 2027 date; conditional competitive eligibility",
+            "review": {
+                "checked": "2026-10-25",
+                "note": "Opens 1 November; closes 30 November 2026 11:59 AM CET / 10:59 AM Ghana. Requires independently authored thesis pre-proposal and references.",
+                "sources": [
+                    "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html/"
+                ]
+            }
         }
     ],
     "qual_stats": {
         "cwa": 0.7085,
         "classification": "First Class Honours",
-        "credits": "145 Credits / ~218 ECTS",
-        "gpa": "3.60 / 4.00"
+        "credits": "145 KNUST credits; ECTS equivalency not verified",
+        "gpa": "Not converted; university assessment required"
     },
     "semesters": [
         {
             "semester": "Year 1 - Semester 1",
-            "registered": 18.0,
-            "passed": 18.0,
-            "swa": 0.672,
-            "cwa": 0.672,
-            "standing": "Second Class Upper"
+            "registered": 18,
+            "passed": 18,
+            "swa": 0.715,
+            "cwa": 0.715,
+            "standing": "Semester result"
         },
         {
             "semester": "Year 1 - Semester 2",
-            "registered": 18.0,
-            "passed": 18.0,
-            "swa": 0.684,
-            "cwa": 0.678,
-            "standing": "Second Class Upper"
+            "registered": 18,
+            "passed": 18,
+            "swa": 0.6844,
+            "cwa": 0.6997,
+            "standing": "Semester result"
         },
         {
             "semester": "Year 2 - Semester 1",
-            "registered": 19.0,
-            "passed": 19.0,
-            "swa": 0.691,
-            "cwa": 0.6825,
-            "standing": "Second Class Upper"
+            "registered": 19,
+            "passed": 19,
+            "swa": 0.6968000000000001,
+            "cwa": 0.6987000000000001,
+            "standing": "Semester result"
         },
         {
             "semester": "Year 2 - Semester 2",
-            "registered": 19.0,
-            "passed": 19.0,
-            "swa": 0.702,
-            "cwa": 0.6874,
-            "standing": "Second Class Upper"
+            "registered": 21,
+            "passed": 21,
+            "swa": 0.6738,
+            "cwa": 0.6918000000000001,
+            "standing": "Semester result"
         },
         {
             "semester": "Year 3 - Semester 1",
-            "registered": 18.0,
-            "passed": 18.0,
-            "swa": 0.715,
-            "cwa": 0.6928,
-            "standing": "Second Class Upper (Upward)"
+            "registered": 18,
+            "passed": 18,
+            "swa": 0.7156,
+            "cwa": 0.6964,
+            "standing": "Semester result"
         },
         {
             "semester": "Year 3 - Semester 2",
-            "registered": 18.0,
-            "passed": 18.0,
-            "swa": 0.731,
-            "cwa": 0.6991,
-            "standing": "Second Class Upper (Upward)"
+            "registered": 18,
+            "passed": 18,
+            "swa": 0.6728000000000001,
+            "cwa": 0.6926000000000001,
+            "standing": "Semester result"
         },
         {
             "semester": "Year 4 - Semester 1",
-            "registered": 18.0,
-            "passed": 18.0,
-            "swa": 0.748,
-            "cwa": 0.7058,
-            "standing": "First Class Honours Threshold"
+            "registered": 17,
+            "passed": 17,
+            "swa": 0.7471,
+            "cwa": 0.6998000000000001,
+            "standing": "Semester result"
         },
         {
             "semester": "Year 4 - Semester 2",
-            "registered": 17.0,
-            "passed": 17.0,
-            "swa": 0.7285,
-            "cwa": 0.7085,
+            "registered": 16,
+            "passed": 16,
+            "swa": 0.7787999999999999,
+            "cwa": 0.7084999999999999,
             "standing": "First Class Honours (Conferred)"
         }
     ],
     "clusters": [
         {
-            "cluster": "Software Systems & Architecture",
-            "focus": "Software Engineering, OS, Distributed Computing, Databases",
-            "credits": 36.0,
-            "pct": 0.2482758621,
-            "avg": 0.825,
-            "gpa": 3.85,
-            "fit": "Exceptional (MSc CS / Software Systems)"
+            "cluster": "Software and distributed systems",
+            "focus": "Software Engineering (3 credits, 92%); Distributed Computing (3 credits, 90%); Operating Systems (4 credits, 76%); Database and Information Retrieval (3 credits, 79%); Introduction to Software Engineering (3 credits, 59%)",
+            "credits": 16,
+            "avg": 0.79
         },
         {
-            "cluster": "Control, Microelectronics & Embedded HW",
-            "focus": "Classical Control, Semiconductors, Microprocessors, DSP",
-            "credits": 38.0,
-            "pct": 0.2620689655,
-            "avg": 0.808,
-            "gpa": 3.8,
-            "fit": "Exceptional (MSc ECE / Microelectronics / VLSI)"
+            "cluster": "Control and electronics",
+            "focus": "Classical Control Systems (3 credits, 93%); Semiconductor Devices (3 credits, 84%); Microprocessors (3 credits, 81%); Digital Signal Processing (3 credits, 82%)",
+            "credits": 12,
+            "avg": 0.85
         },
         {
-            "cluster": "Networks, Telecom & Information Security",
-            "focus": "Computer Networks, Secure Network Systems, Telecom Systems",
-            "credits": 26.0,
-            "pct": 0.1793103448,
-            "avg": 0.714,
-            "gpa": 3.3,
-            "fit": "Competitive (Networking / Telecom Tracks)"
+            "cluster": "Networks and security",
+            "focus": "Computer Networking (4 credits, 72%); Secure Network Systems (3 credits, 64%); Communication Systems (3 credits, 71%)",
+            "credits": 10,
+            "avg": 0.693
         },
         {
-            "cluster": "Mathematics & Theoretical Foundations",
-            "focus": "Engineering Mathematics, Discrete Math, Numerical Methods",
-            "credits": 27.0,
-            "pct": 0.1862068966,
-            "avg": 0.678,
-            "gpa": 3.15,
-            "fit": "Meets Quantitative Rigor Prerequisites"
-        },
-        {
-            "cluster": "Engineering Management & Capstone",
-            "focus": "Senior Design Capstone, Engineering Economics, Management",
-            "credits": 18.0,
-            "pct": 0.124137931,
-            "avg": 0.782,
-            "gpa": 3.65,
-            "fit": "High Research & Practical Execution Fit"
+            "cluster": "Capstone project",
+            "focus": "Project I (3 credits, 79%); Project II (5 credits, 78%)",
+            "credits": 8,
+            "avg": 0.78375
         }
     ],
     "courses": [
@@ -1823,7 +2737,7 @@
             "course": "Classical Control Systems",
             "level": "Year 3",
             "mark": 0.93,
-            "letter": "A (Distinction)",
+            "letter": "A",
             "domain": "Control Systems & Automation",
             "positioning": "Robotics, Autonomous Control, Industrial Automation (Wits, Khalifa)"
         },
@@ -1831,7 +2745,7 @@
             "course": "Software Engineering",
             "level": "Year 4",
             "mark": 0.92,
-            "letter": "A (Distinction)",
+            "letter": "A",
             "domain": "Software Architecture",
             "positioning": "Enterprise Software, Large-Scale Systems, Cloud (RWTH, Dalian)"
         },
@@ -1839,23 +2753,23 @@
             "course": "Distributed Computing",
             "level": "Year 4",
             "mark": 0.9,
-            "letter": "A (Distinction)",
+            "letter": "A",
             "domain": "Distributed & Cloud Systems",
             "positioning": "High-Performance Computing, Cloud Infrastructure (CMU-Africa, Calgary)"
         },
         {
-            "course": "Semiconductor Devices & Physics",
-            "level": "Year 3",
+            "course": "Semiconductor Devices",
+            "level": "Year 2",
             "mark": 0.84,
-            "letter": "A (Distinction)",
+            "letter": "A",
             "domain": "Microelectronics & Solid State",
             "positioning": "IC Design, Microelectronics Fabrication (Xidian, Purdue, Fudan)"
         },
         {
             "course": "Digital Signal Processing (DSP)",
-            "level": "Year 3",
+            "level": "Year 4",
             "mark": 0.82,
-            "letter": "A (Distinction)",
+            "letter": "A",
             "domain": "Signal Processing & Autotronics",
             "positioning": "Embedded DSP, Audio/Image Systems (Stellenbosch, Beihang)"
         },
@@ -1863,23 +2777,23 @@
             "course": "Microprocessors & Microcomputers",
             "level": "Year 3",
             "mark": 0.81,
-            "letter": "A (Distinction)",
+            "letter": "A",
             "domain": "Computer Architecture",
             "positioning": "Hardware/Software Co-Design, RTOS (SEU, Freiburg, TUM)"
         },
         {
-            "course": "Senior Engineering Capstone Project",
+            "course": "Project II",
             "level": "Year 4",
-            "mark": 0.79,
-            "letter": "A (Distinction)",
+            "mark": 0.78,
+            "letter": "A",
             "domain": "Applied Systems Prototyping",
-            "positioning": "Thesis/Research Track Readiness, Graduate Fellowships (KAUST, Alberta)"
+            "positioning": "Final-year project; title and contribution to confirm"
         },
         {
             "course": "Database & Information Retrieval Systems",
             "level": "Year 3",
             "mark": 0.79,
-            "letter": "A (Distinction)",
+            "letter": "A",
             "domain": "Data Engineering & Info Systems",
             "positioning": "Information Systems, Big Data Architectures (Nankai, HIT)"
         },
@@ -1887,17 +2801,372 @@
             "course": "Operating Systems & Systems Architecture",
             "level": "Year 3",
             "mark": 0.76,
-            "letter": "B+ (Very Good)",
+            "letter": "A",
             "domain": "Systems Software",
             "positioning": "Kernel Architecture, RTOS HW/SW Integration (HIT, SJTU)"
         },
         {
-            "course": "Computer Networks & Telecom Engineering",
-            "level": "Year 3",
+            "course": "Computer Networking",
+            "level": "Year 4",
             "mark": 0.72,
-            "letter": "B+ (Very Good)",
+            "letter": "A",
             "domain": "Telecommunications & Networking",
             "positioning": "Telecommunication Systems, Network Protocol Design (UESTC, TU Berlin)"
+        }
+    ],
+    "preparation": {
+        "updated": "2026-10-25",
+        "target": "Late 2027 preferred; consider eligible early 2027 opportunities",
+        "tasks": [
+            {
+                "title": "Official transcript",
+                "status": "Requested",
+                "detail": "Transcript requested; approval/delivery pending. Official January 2023 KNUST handbook grading tables located (printed pp.148–150). No separate November 2025 revision found; request cohort-applicable grading legend from transcript.coe@knust.edu.gh."
+            },
+            {
+                "title": "Admissions CV",
+                "status": "Draft ready",
+                "detail": "Two-page academic CV available in Profile as PDF and editable Word. EY role and former SCC role confirmed; exact enrolment year and SCC end date omitted pending confirmation."
+            },
+            {
+                "title": "Referees",
+                "status": "To arrange",
+                "detail": "Ask two academic referees and one professional referee before entering their details in portals."
+            },
+            {
+                "title": "Project summary",
+                "status": "Draft ready",
+                "detail": "Led UniConnect and built most frontend/backend; teammates gathered requirements and handled presentations. FastAPI backend; messaging and audio calls worked, while video calls remained problematic. Summary ready for CV and statement tailoring; no measured performance claims."
+            },
+            {
+                "title": "English requirements",
+                "status": "To check",
+                "detail": "No IELTS/TOEFL score yet. Check each programme’s waiver rules and exact test thresholds; request an English-medium instruction letter from KNUST."
+            },
+            {
+                "title": "Statements and documents",
+                "status": "To prepare",
+                "detail": "Prepare tailored motivation statements, clear degree scan and valid passport; keep personal files out of the public tracker."
+            }
+        ]
+    },
+    "profile": {
+        "name": "Gideon Nana Kwame Nyarko",
+        "updated": "2026-10-25",
+        "degree": "BSc Computer Engineering",
+        "institution": "Kwame Nkrumah University of Science and Technology",
+        "academic_years": "2021–2022 through 2024–2025",
+        "award_date": "1 November 2025",
+        "summary": "Computer Engineering graduate with First Class Honours, software development projects and experience in technology risk and data assurance. Application interests: software and distributed systems, cybersecurity, and embedded/control systems. Final specialisation to be selected.",
+        "credly_url": "https://www.credly.com/users/gideon-nyarko",
+        "credentials": [
+            {
+                "title": "AWS Academy Graduate - Cloud Foundations - Training Badge",
+                "issuer": "Amazon Web Services Training and Certification",
+                "date": "2025-03-06",
+                "kind": "Training badge"
+            },
+            {
+                "title": "AWS Academy Graduate - Cloud Security Foundations - Training Badge",
+                "issuer": "Amazon Web Services Training and Certification",
+                "date": "2025-03-06",
+                "kind": "Training badge"
+            },
+            {
+                "title": "AWS Academy Graduate - Cloud Architecting - Training Badge",
+                "issuer": "Amazon Web Services Training and Certification",
+                "date": "2025-03-20",
+                "kind": "Training badge"
+            },
+            {
+                "title": "AWS Academy Graduate - Data Engineering - Training Badge",
+                "issuer": "Amazon Web Services Training and Certification",
+                "date": "2025-04-16",
+                "kind": "Training badge"
+            },
+            {
+                "title": "AWS Academy Graduate - Data Center Technician - Training Badge",
+                "issuer": "Amazon Web Services Training and Certification",
+                "date": "2025-05-07",
+                "kind": "Training badge"
+            },
+            {
+                "title": "Networking Basics",
+                "issuer": "Cisco",
+                "date": "2025-03-25",
+                "kind": "Course credential"
+            },
+            {
+                "title": "Operating Systems Basics",
+                "issuer": "Cisco",
+                "date": "2025-04-14",
+                "kind": "Course credential"
+            },
+            {
+                "title": "Introduction to IoT",
+                "issuer": "Cisco",
+                "date": "2025-04-14",
+                "kind": "Course credential"
+            },
+            {
+                "title": "Computer Hardware Basics",
+                "issuer": "Cisco",
+                "date": "2025-04-14",
+                "kind": "Course credential"
+            },
+            {
+                "title": "Introduction to Modern AI",
+                "issuer": "Cisco",
+                "date": "2025-04-14",
+                "kind": "Course credential"
+            },
+            {
+                "title": "Introduction to Data Science",
+                "issuer": "Cisco",
+                "date": "2025-08-16",
+                "kind": "Course credential"
+            },
+            {
+                "title": "EY Artificial Intelligence - Responsible AI - Bronze Learning (2026)",
+                "issuer": "EY",
+                "date": "2026-07-09",
+                "kind": "Learning badge"
+            },
+            {
+                "title": "EY Microsoft - Azure - Bronze Learning (2026)",
+                "issuer": "EY",
+                "date": "2026-07-27",
+                "kind": "Learning badge"
+            }
+        ],
+        "experience": [
+            {
+                "title": "EY — Data Assurance and Technology Risk Intern",
+                "dates": "January 2026–Present (as listed in CV)",
+                "detail": "IT risk assessments, security-control reviews, audit documentation and Alteryx workflows for fuzzy matching and data cleaning."
+            },
+            {
+                "title": "Electricity Company of Ghana — IT Intern",
+                "dates": "October 2024–January 2025",
+                "detail": "Supported IT operations, customer service and internal information systems."
+            },
+            {
+                "title": "Community Water and Sanitation Agency — IT Technician Intern",
+                "dates": "September–December 2023",
+                "detail": "Supported email account setup, wireless-device configuration and end-user technical needs."
+            }
+        ],
+        "leadership": [
+            {
+                "title": "SCC KNUST — Publicity Assistant",
+                "dates": "Former role · started July 2024; end date not specified",
+                "detail": "Publicity, media relations and creative campaigns for the campus chaplaincy."
+            },
+            {
+                "title": "ACES KNUST — Projects Head and Graphic Designer",
+                "dates": "January 2023–January 2024",
+                "detail": "Project coordination and graphic design."
+            }
+        ],
+        "projects": [
+            {
+                "title": "Sankofa",
+                "dates": "React, Express, Node.js",
+                "detail": "Health and waste-tracking application for the Ghanaian market, described in the CV as using AI for predictive intelligence."
+            },
+            {
+                "title": "Taskin",
+                "dates": "TypeScript, JavaScript",
+                "detail": "Task-management application."
+            },
+            {
+                "title": "Nexus Health",
+                "dates": "PHP, Vue",
+                "detail": "Health-management application for patient records."
+            },
+            {
+                "title": "UniConnect",
+                "dates": "Final-year project · React Native, Expo, TypeScript, FastAPI, Socket.IO, SQLite",
+                "detail": "Team lead; applicant reports building most of the frontend and backend, while teammates gathered requirements and handled presentations. Documentation describes a React Native/Expo messaging MVP using Socket.IO and SQLite over local Wi-Fi/LAN through a local server. Applicant confirms the implemented backend was FastAPI/Python and messaging and audio calls worked in the demonstration; video calls remained problematic. Exact network conditions, test scale and measured performance remain unverified. No evidence establishes peer-to-peer mesh routing."
+            }
+        ],
+        "skills": [
+            {
+                "title": "Programming and frameworks",
+                "detail": "Python, JavaScript, TypeScript, C, C++, PHP, React, Express, Vue"
+            },
+            {
+                "title": "Tools",
+                "detail": "Alteryx, Microsoft Office, Adobe tools, Unity, Figma, Framer"
+            },
+            {
+                "title": "Professional skills",
+                "detail": "IT risk assessment, data assurance, audit documentation, UI/UX, graphic design, teamwork, leadership and public speaking"
+            }
+        ],
+        "additional_credentials": [],
+        "checks": [
+            "Official transcript ordered; approval and delivery pending. Updated results and degree certificate are available.",
+            "Credly transcript issued 25 October 2026 supports the 13 listed badges. These are training/course/learning credentials, not evidence of separate professional certification exams.",
+            "Applicant confirms September start month. Transcript shows Year 1 in 2021–2022 and Year 4 in 2024–2025 but no start month; September 2022 cannot be corroborated. September start month and four-year course confirmed by applicant; precise start year remains unresolved. Degree certificate dated November 2025.",
+            "Applicant confirms ongoing EY employment on 25 October 2026. Current Data Assurance and Technology Risk Intern title confirmed. SCC publicity role is no longer active; end date not specified. Experience, skills and other projects are sourced from supplied CV.",
+            "No 4.0 GPA or ECTS conversion has been verified. Use 70.85 CWA and 145 KNUST credits.",
+            "LinkedIn certificates reviewed 25 October 2026: 14 entries beyond the 13 Credly badges, including four already listed in the CV. Titles, issuers and months reflect LinkedIn; underlying awards were not independently verified. Oracle Academy entry needs exact award confirmation.",
+            "UniConnect confirmed as final-year project; team-lead role and most frontend/backend implementation confirmed by applicant; messaging and audio calls reported working, video calls problematic. No IELTS/TOEFL score yet (applicant confirmation, 25 October 2026).",
+            "Applicant confirms current Ghana residence, need for overseas-study funding, and no study/work of one year or more in a high-income country. Commonwealth Shared baseline screen supported; approved course and full award conditions still apply.",
+            "UniConnect documentation reviewed 25 October 2026. Applicant confirms FastAPI backend, resolving the Node.js documentation conflict. Exact offline demonstration conditions remain unconfirmed. Performance, uptime, security and production-readiness statements are not verified results; do not use as demonstrated achievements without evidence.",
+            "Official grading reference located: KNUST Students’ Guide, revised January 2023, pp.148–150. A 70–100; B 60–69; C 50–59; D 40–49; F 0–39. First Class CWA ≥70. No November 2025 revision located; request engineering transcript office confirmation for cohort. Source: https://www.knust.edu.gh/sites/default/files/2023-06/Students%27%20Guide%20and%20Code%20of%20Conduct.pdf"
+        ],
+        "linkedin_credentials": [
+            {
+                "title": "Design Principles: an Introduction",
+                "issuer": "University of California San Diego",
+                "date": "2026-09",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": "https://www.coursera.org/account/accomplishments/records/39D4RSY6Y3IU"
+            },
+            {
+                "title": "Creativity, Design Thinking, and Innovation for Business",
+                "issuer": "Udemy",
+                "date": "2026-09",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": null
+            },
+            {
+                "title": "ChatGPT for Creatives: AI for SEO, Marketing & Workflow",
+                "issuer": "Skillshare",
+                "date": "2026-09",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": "https://www.coursera.org/account/accomplishments/records/I2V53J9PCAWB"
+            },
+            {
+                "title": "Application Development with Node.js: Real-time Applications",
+                "issuer": "Skillsoft",
+                "date": "2026-05",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": null
+            },
+            {
+                "title": "UX Strategy Fundamentals",
+                "issuer": "Udemy",
+                "date": "2026-07",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": null
+            },
+            {
+                "title": "The AI Ethics Course 2026: Work with AI Responsibly",
+                "issuer": "365 Careers",
+                "date": "2026-06",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": null
+            },
+            {
+                "title": "NVIDIA: Prompt Engineering and Data Analysis",
+                "issuer": "Whizlabs",
+                "date": "2026-06",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": "https://www.coursera.org/account/accomplishments/records/L5TOTZ9PUJTU"
+            },
+            {
+                "title": "Artificial Intelligence Algorithms Models and Limitations",
+                "issuer": "LearnQuest",
+                "date": "2026-06",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": "https://www.coursera.org/account/accomplishments/records/S77DS9HH0P93"
+            },
+            {
+                "title": "Big Data, Artificial Intelligence, and Ethics",
+                "issuer": "University of California, Davis",
+                "date": "2026-06",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": "https://www.coursera.org/account/accomplishments/records/QBLJSPXN40BC"
+            },
+            {
+                "title": "Ethics and Generative AI(Gen AI)",
+                "issuer": "Udemy",
+                "date": "2026-06",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": null
+            },
+            {
+                "title": "EY Technology Risk Simulator",
+                "issuer": "Forage",
+                "date": "2026-03",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": null
+            },
+            {
+                "title": "Alteryx for Beginners",
+                "issuer": "Packt",
+                "date": "2025-12",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": "https://www.coursera.org/account/accomplishments/records/Z9MEPMKCUX28"
+            },
+            {
+                "title": "Publicity Design Workshop",
+                "issuer": "Deongraphx Studio",
+                "date": "2025-07",
+                "kind": "Listed on LinkedIn; issuer verification not performed",
+                "url": null
+            },
+            {
+                "title": "Oracle Java Programmer Certifications",
+                "issuer": "Oracle",
+                "date": "2024-02",
+                "kind": "Listed on LinkedIn. Linked credential points to Oracle Academy; exact award and professional certification status need confirmation. Expiry listed as February 2034.",
+                "url": null
+            }
+        ],
+        "linkedin_url": "https://www.linkedin.com/in/nkgnyarko/details/certifications/",
+        "documents": [
+            {
+                "title": "Academic CV",
+                "detail": "Two-page MSc admissions CV updated 25 October 2026: First Class Computer Engineering degree awarded November 2025, UniConnect team leadership and development, ongoing EY experience, former SCC role and selected training. Exact enrolment year and SCC end date are omitted pending confirmation.",
+                "links": [
+                    {
+                        "label": "View CV (PDF)",
+                        "url": "/documents/Gideon_Nyarko_Academic_CV.pdf"
+                    },
+                    {
+                        "label": "Download editable CV (Word)",
+                        "url": "/documents/Gideon_Nyarko_Academic_CV.docx"
+                    }
+                ]
+            },
+            {
+                "title": "Official KNUST handbook and grading key",
+                "detail": "Students’ Guide and Code of Conduct, revised January 2023. Printed page 148: course grades; page 149: degree classifications; page 150: CWA calculation. No separate November 2025 revision found. Confirmation that these rules applied to the November 2025 Computer Engineering cohort is still pending.",
+                "links": [
+                    {
+                        "label": "View official handbook (PDF)",
+                        "url": "/documents/KNUST_Students_Guide_2023.pdf"
+                    },
+                    {
+                        "label": "Original KNUST source",
+                        "url": "https://www.knust.edu.gh/sites/default/files/2023-06/Students%27%20Guide%20and%20Code%20of%20Conduct.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    "funding_screen": [
+        {
+            "title": "Chevening",
+            "dates": "Not eligible on current record",
+            "detail": "Two years after degree completion and 2,800 post-degree work hours required. Your degree was completed in 2025.",
+            "url": "https://www.chevening.org/resource-hub/guidance/eligibility/"
+        },
+        {
+            "title": "DAAD EPOS",
+            "dates": "Not eligible on current record",
+            "detail": "Requires at least two years of relevant professional experience after the first degree at application. This is specific to EPOS, not every DAAD award.",
+            "url": "https://www2.daad.de/deutschland/stipendien/database?detail=50076777"
+        },
+        {
+            "title": "ASU Mastercard Foundation",
+            "dates": "Closed — 27 September 2026",
+            "detail": "2027/28 technology scholarship deadline has passed, despite a broad partner directory showing applications open.",
+            "url": "https://mcfscholars.asu.edu/phase-three-innovation-and-technology"
         }
     ]
 }

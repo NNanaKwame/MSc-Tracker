@@ -1131,6 +1131,11 @@
       overflow: hidden;
       clip: rect(0, 0, 0, 0);
     }
+      #view-profile .kv-row { display: flex; justify-content: space-between; gap: 20px; padding: 8px 0; border-bottom: 1px solid #eee; }
+    #view-profile .kv-row .v { text-align: right; }
+    #view-profile .section-block { margin-top: 28px; }
+    #view-profile .body-text { line-height: 1.65; }
+    #view-profile li.body-text { margin-bottom: 10px; }
   </style>
 </head>
 
@@ -1244,6 +1249,17 @@
       check: '<polyline points="3.2,8.3 6.5,11.6 12.8,4.2"/>',
       x: '<line x1="3.5" y1="3.5" x2="12.5" y2="12.5"/><line x1="12.5" y1="3.5" x2="3.5" y2="12.5"/>'
     };
+    function escapeHTML(value) {
+      return String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+    function preparationHTML() {
+      if (!DATA.preparation) return '';
+      return `<div class="section-block"><h2 class="block-title">Application preparation</h2><p class="sub">${escapeHTML(DATA.preparation.target)} · Updated ${escapeHTML(DATA.preparation.updated)}</p><div class="grid-2">${DATA.preparation.tasks.map(t => `<div class="card"><h3 class="card-title">${escapeHTML(t.title)} — ${escapeHTML(t.status)}</h3><p class="body-text">${escapeHTML(t.detail)}</p></div>`).join('')}</div></div>`;
+    }
+    function reviewHTML(review) {
+      if (!review) return '';
+      return `<div class="modal-section"><h4>Application review · ${escapeHTML(review.checked || "Not yet verified")}</h4><p class="body-text">${review.deadline ? 'Target deadline: ' + escapeHTML(review.deadline) + '. ' : ''}${escapeHTML(review.note)}</p><p class="body-text">Fit is an assessment, not an admission or funding guarantee. Recheck the portal before submitting.</p>${review.sources.map((url,i) => `<a href="${escapeHTML(url)}" target="_blank" rel="noopener">Official source ${i+1}</a>`).join(' · ')}</div>`;
+    }
     function iconSvg(name) {
       return `<svg viewBox="0 0 16 16">${ICON_PATHS[name] || ''}</svg>`;
     }
@@ -1282,7 +1298,7 @@
       if (/Medium/i.test(qual)) return 'Medium';
       return 'Medium';
     }
-    const fmt$ = n => '$' + Math.round(n).toLocaleString('en-US');
+    const fmt$ = n => n == null ? 'See award terms' : '$' + Math.round(n).toLocaleString('en-US');
     function shortCoverage(coverage) {
       let s = String(coverage).split('(')[0].trim();
       if (s.length > 26) s = s.slice(0, 23).trim() + '…';
@@ -1290,17 +1306,12 @@
     }
 
     function parseDeadline(str) {
-      if (!str) return null;
-      let s = String(str).split('(')[0].trim();
-      s = s.replace(/–|—/g, '-');
-      const d = new Date(s);
-      if (isNaN(d.getTime())) return null;
-      return d;
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(String(str))) return null;
+      const date = new Date(str + 'T00:00:00Z');
+      return !isNaN(date) && date.toISOString().slice(0,10) === str ? date : null;
     }
-    const NOW = new Date();
-    function daysUntil(date) {
-      const ms = date.setHours(0, 0, 0, 0) - new Date(NOW).setHours(0, 0, 0, 0);
-      return Math.round(ms / 86400000);
+    function daysUntil(date, now = new Date()) {
+      return Math.round((Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()) - Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate())) / 86400000);
     }
     function deadlineLabel(days) {
       if (days < 0) return 'Deadline passed';
@@ -1333,28 +1344,16 @@
     function getStatus(kind, name, fallback) {
       return remoteState.statuses[`${kind}:${name}`] || fallback || 'Not Started';
     }
-    function setStatus(kind, name, val) {
-      remoteState.statuses[`${kind}:${name}`] = val; // Optimistic UI update
-      fetch('/api/sync', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ type: 'status', key: `${kind}:${name}`, value: val, token: adminToken })
-      }).catch(e => console.error("Error saving status:", e));
+    async function saveRemote(type, key, value) {
+      const response = await fetch('/api/sync', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({type,key,value,token:adminToken})});
+      if (!response.ok) throw new Error('Save failed (' + response.status + ')');
+      const result = await response.json();
+      if (!result.success) throw new Error('Save not confirmed');
+      remoteState[type === 'status' ? 'statuses' : 'notes'][key] = value;
     }
-
-    // Notes getters/setters
-    function getNotes(kind, name) {
-      return remoteState.notes[`${kind}:${name}`] || '';
-    }
-    function setNotes(kind, name, val) {
-      remoteState.notes[`${kind}:${name}`] = val; // Optimistic UI update
-      fetch('/api/sync', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ type: 'notes', key: `${kind}:${name}`, value: val })
-      }).catch(e => console.error("Error saving notes:", e));
-    }
-
+    function setStatus(kind, name, val) { return saveRemote('status', `${kind}:${name}`, val); }
+    function getNotes(kind, name) { return remoteState.notes[`${kind}:${name}`] || ''; }
+    function setNotes(kind, name, val) { return saveRemote('notes', `${kind}:${name}`, val); }
     /* ============================================================
        TOAST
        ============================================================ */
@@ -1427,18 +1426,16 @@
     function wireStatusSelects(container, onChangeExtra) {
       container.querySelectorAll('.status-select').forEach(sel => {
         sel.addEventListener('click', e => e.stopPropagation());
-        sel.addEventListener('change', e => {
+        sel.addEventListener('change', async e => {
           e.stopPropagation();
-          const kind = sel.dataset.kind, name = sel.dataset.name, val = sel.value;
-          setStatus(kind, name, val);
-          const meta = STATUS_META[val];
-          sel.className = 'status-select st-' + meta.c;
-          toast('Status updated to "' + val + '"');
-          if (onChangeExtra) onChangeExtra();
+          const kind=sel.dataset.kind, name=sel.dataset.name, val=sel.value;
+          const previous=getStatus(kind,name); sel.disabled=true;
+          try { await setStatus(kind,name,val); sel.className='status-select st-'+STATUS_META[val].c; toast('Status saved'); if(onChangeExtra) onChangeExtra(); }
+          catch(error) { sel.value=previous; toast('Status not saved. Check connection or admin access.'); }
+          finally { sel.disabled=false; }
         });
       });
     }
-
     /* ============================================================
        DASHBOARD
        ============================================================ */
@@ -1478,7 +1475,7 @@
       });
       attnUnis.forEach(m => {
         attnHTML += `<div class="attn-item" data-open="uni" data-name="${m.university.replace(/"/g, '&quot;')}">
-      <div class="attn-main"><div class="t">${m.university}</div><div class="s">Very high qualification match &middot; not started yet</div></div>
+      <div class="attn-main"><div class="t">${m.university}</div><div class="s">Priority candidate &middot; verify course eligibility</div></div>
       <div class="attn-side">${badgeHTML('Not Started')}</div>
     </div>`;
       });
@@ -1506,13 +1503,14 @@
 
     <div class="section-block">
       <div class="stat-row">
-        <div class="stat-cell"><span class="num">${DATA.cost_stats.total_programs}</span><span class="lbl">Programs tracked</span></div>
-        <div class="stat-cell"><span class="num">${DATA.cost_stats.zero_net}</span><span class="lbl">$0 net if funded</span></div>
-        <div class="stat-cell"><span class="num">${fmt$(DATA.cost_stats.avg_net)}</span><span class="lbl">Avg net cost</span></div>
-        <div class="stat-cell"><span class="num">${DATA.schol_stats.total}</span><span class="lbl">Scholarships mapped</span></div>
+        <div class="stat-cell"><span class="num">${DATA.master.length}</span><span class="lbl">Programs tracked</span></div>
+        <div class="stat-cell"><span class="num">${DATA.cost_stats.zero_net}</span><span class="lbl">Legacy $0 estimates</span></div>
+        <div class="stat-cell"><span class="num">${fmt$(DATA.cost_stats.avg_net)}</span><span class="lbl">Legacy avg net cost</span></div>
+        <div class="stat-cell"><span class="num">${DATA.schol.length}</span><span class="lbl">Scholarships mapped</span></div>
       </div>
     </div>
 
+    ${preparationHTML()}
     <div class="section-block">
       <h2 class="block-title">Needs your attention</h2>
       <div class="card" style="padding:6px 14px;">
@@ -1536,16 +1534,16 @@
           <div class="kv">
             <div class="kv-row"><span class="k">Classification</span><span class="v">${DATA.qual_stats.classification}</span></div>
             <div class="kv-row"><span class="k">CWA</span><span class="v">${(DATA.qual_stats.cwa * 100).toFixed(2)}%</span></div>
-            <div class="kv-row"><span class="k">US GPA equivalent</span><span class="v">${DATA.qual_stats.gpa}</span></div>
+            <div class="kv-row"><span class="k">GPA equivalency</span><span class="v">${DATA.qual_stats.gpa}</span></div>
           </div>
         </div>
       </div>
       <div class="card">
         <h3 class="card-title">Funding snapshot</h3>
-        <p class="card-sub">Across all 64 tracked programs</p>
+        <p class="card-sub">Legacy estimates for ${DATA.cost.length} programs; new additions are not costed</p>
         <div class="modal-section" style="margin:0;">
           <div class="kv">
-            <div class="kv-row"><span class="k">Fully funded at $0 net</span><span class="v">${DATA.cost_stats.zero_net} of ${DATA.cost_stats.total_programs}</span></div>
+            <div class="kv-row"><span class="k">Legacy $0 estimates (unverified)</span><span class="v">${DATA.cost_stats.zero_net} of ${DATA.cost_stats.total_programs}</span></div>
             <div class="kv-row"><span class="k">Avg. annual living cost</span><span class="v">${fmt$(DATA.cost_stats.avg_living)}</span></div>
             <div class="kv-row"><span class="k">Avg. net out-of-pocket</span><span class="v">${fmt$(DATA.cost_stats.avg_net)}</span></div>
           </div>
@@ -1686,16 +1684,17 @@
       <div class="kv">
         <div class="kv-row"><span class="k">Funding structure</span><span class="v">${m.funding}</span></div>
         <div class="kv-row"><span class="k">Cost profile</span><span class="v">${costBadgeHTML(m.cost_profile)}</span></div>
-        ${cost ? `<div class="kv-row"><span class="k">Net out-of-pocket</span><span class="v">${fmt$(cost.net)} / ${cost.duration}yr</span></div>` : ''}
+        ${cost && !cost.review_pending ? `<div class="kv-row"><span class="k">Net out-of-pocket</span><span class="v">${fmt$(cost.net)} / ${cost.duration}yr</span></div>` : ''}
       </div>
     </div>
+    ${reviewHTML(m.review)}
     <div class="modal-section">
       <h4>Qualification fit</h4>
       <p class="body-text">${m.qual_match}</p>
     </div>
     <div class="modal-section">
-      <h4>Notes</h4>
-      <textarea id="modal-notes" placeholder="Add a private note — contacts, requirements, reminders…">${notes}</textarea>
+      <h4>Public notes (admin editing)</h4>
+      <textarea ${isAdmin ? '' : 'readonly'} id="modal-notes" placeholder="Public note — do not include private documents or contact details">${escapeHTML(notes)}</textarea>
     </div>
   `;
       const footerHTML = `
@@ -1709,7 +1708,7 @@
       let notesTimer = null;
       notesEl.addEventListener('input', () => {
         clearTimeout(notesTimer);
-        notesTimer = setTimeout(() => { setNotes('uni', m.university, notesEl.value); toast('Note saved'); }, 600);
+        notesTimer = setTimeout(async () => { try { await setNotes('uni', m.university, notesEl.value); toast('Note saved'); } catch(e) { toast('Note not saved. Keep a copy and retry.'); } }, 600);
       });
     }
 
@@ -1852,8 +1851,8 @@
       <p class="body-text">${s.positioning}</p>
     </div>
     <div class="modal-section">
-      <h4>Notes</h4>
-      <textarea id="modal-notes" placeholder="Add a private note…">${notes}</textarea>
+      <h4>Public notes (admin editing)</h4>
+      <textarea ${isAdmin ? '' : 'readonly'} id="modal-notes" placeholder="Public note — do not include sensitive information">${escapeHTML(notes)}</textarea>
     </div>
   `;
       const footerHTML = `
@@ -1867,7 +1866,7 @@
       let notesTimer = null;
       notesEl.addEventListener('input', () => {
         clearTimeout(notesTimer);
-        notesTimer = setTimeout(() => { setNotes('schol', s.name, notesEl.value); toast('Note saved'); }, 600);
+        notesTimer = setTimeout(async () => { try { await setNotes('schol', s.name, notesEl.value); toast('Note saved'); } catch(e) { toast('Note not saved. Keep a copy and retry.'); } }, 600);
       });
     }
 
@@ -1875,82 +1874,30 @@
        DEADLINES VIEW
        ============================================================ */
     function renderDeadlines() {
-      const el = document.getElementById('view-deadlines');
-      const withDates = DATA.schol.map(s => ({ s, d: parseDeadline(s.deadline) })).filter(x => x.d);
-      const noDates = DATA.schol.filter(s => !parseDeadline(s.deadline));
-
-      const buckets = { overdue: [], soon: [], mid: [], later: [] };
-      withDates.forEach(x => {
-        const days = daysUntil(new Date(x.d));
-        if (days < 0) buckets.overdue.push({ ...x, days });
-        else if (days <= 30) buckets.soon.push({ ...x, days });
-        else if (days <= 90) buckets.mid.push({ ...x, days });
-        else buckets.later.push({ ...x, days });
-      });
-      ['overdue', 'soon', 'mid', 'later'].forEach(k => buckets[k].sort((a, b) => a.days - b.days));
-
-      function bucketRow(x) {
-        const st = getStatus('schol', x.s.name, x.s.status);
-        const action = st === 'Accepted' ? 'Decision received' : st === 'Rejected' ? 'Not pursuing' : st === 'Submitted' || st === 'Interview' ? 'Awaiting decision' : x.days <= 14 ? 'Finalize and submit now' : 'Prepare materials';
-        return `<div class="attn-item" data-name="${x.s.name.replace(/"/g, '&quot;')}">
-      <div class="attn-main"><div class="t">${x.s.name}</div><div class="s">${x.s.deadline} &middot; ${action}</div></div>
-      <div class="attn-side">${badgeHTML(st)}</div>
-    </div>`;
-      }
-
-      function section(title, note, arr) {
-        if (arr.length === 0) return '';
-        return `<div class="section-block">
-      <h2 class="block-title">${title}</h2>
-      ${note ? `<p class="block-note" style="margin-bottom:10px;">${note}</p>` : ''}
-      <div class="card" style="padding:6px 14px;"><div class="attn-list">${arr.map(bucketRow).join('')}</div></div>
-    </div>`;
-      }
-
-      let noDateHTML = '';
-      if (noDates.length) {
-        noDateHTML = `<div class="section-block">
-      <h2 class="block-title">Rolling / unspecified deadlines</h2>
-      <div class="card" style="padding:6px 14px;"><div class="attn-list">${noDates.map(s => {
-          const st = getStatus('schol', s.name, s.status);
-          return `<div class="attn-item" data-name="${s.name.replace(/"/g, '&quot;')}">
-          <div class="attn-main"><div class="t">${s.name}</div><div class="s">${s.deadline}</div></div>
-          <div class="attn-side">${badgeHTML(st)}</div>
-        </div>`;
-        }).join('')}</div></div>
-    </div>`;
-      }
-
-      const nothingAtAll = buckets.overdue.length + buckets.soon.length + buckets.mid.length + buckets.later.length + noDates.length === 0;
-
-      el.innerHTML = `
-    <div class="page-head">
-      <h1>Deadlines</h1>
-      <p class="sub">Every scholarship deadline, ordered by urgency.</p>
-    </div>
-    ${nothingAtAll ? `<div class="empty-state"><h3>No deadlines tracked yet</h3><p>Scholarship deadlines will appear here as soon as they're added.</p></div>` : ''}
-    ${section('Overdue', 'These have passed — check if the next cycle has opened.', buckets.overdue)}
-    ${section('Due within 30 days', null, buckets.soon)}
-    ${section('Due in 1–3 months', null, buckets.mid)}
-    ${section('Due later', null, buckets.later)}
-    ${noDateHTML}
-  `;
-
-      el.querySelectorAll('.attn-item').forEach(item => {
-        item.addEventListener('click', () => openScholModal(DATA.schol.find(s => s.name === item.dataset.name)));
-      });
+      const el=document.getElementById('view-deadlines');
+      const records=[...DATA.master.map(m=>({kind:'uni',name:m.university,date:m.review?.deadline,opens:m.review?.opens,note:m.review?.note || 'Not verified',record:m})),...DATA.schol.map(s=>({kind:'schol',name:s.name,date:s.deadline,note:s.deadline_review || 'Unverified',record:s}))];
+      const dated=records.filter(x=>parseDeadline(x.date)).sort((a,b)=>a.date.localeCompare(b.date));
+      const unknown=records.filter(x=>!parseDeadline(x.date));
+      function rows(list) {return list.map(x=>`<button class="attn-item" style="width:100%;text-align:left;background:transparent;border:0;color:inherit" data-kind="${x.kind}" data-name="${escapeHTML(x.name)}"><span class="attn-main"><span class="t">${escapeHTML(x.name)}</span><span class="s" style="display:block">${x.kind==='uni'?'Programme':'Scholarship'} · ${escapeHTML(x.date || 'Date unverified')} · ${x.opens && daysUntil(parseDeadline(x.opens))>0 ? 'Opens '+escapeHTML(x.opens) : parseDeadline(x.date)?deadlineLabel(daysUntil(parseDeadline(x.date))):'Check eligibility and cycle'}<br>${escapeHTML(x.note)}</span></span></button>`).join('');}
+      el.innerHTML=`<div class="page-head"><h1>Deadlines</h1><p class="sub">Programme and scholarship deadlines · checked 25 October 2026. Day counts use Ghana/UTC calendar dates; follow each portal’s exact closing time.</p></div><div class="section-block"><h2 class="block-title">Upcoming dated opportunities</h2><div class="card">${rows(dated.filter(x=>daysUntil(parseDeadline(x.date))>=0)) || 'No confirmed upcoming dates.'}</div></div><div class="section-block"><h2 class="block-title">Passed deadlines</h2><div class="card">${rows(dated.filter(x=>daysUntil(parseDeadline(x.date))<0)) || 'None.'}</div></div><div class="section-block"><details><summary class="block-title">Unverified dates / eligibility checks (${unknown.length})</summary><p class="sub">Unknown does not mean rolling or open. Legacy dates are not treated as verified 2027 deadlines.</p><div class="card">${rows(unknown)}</div></details></div>${profileCards('Funding routes screened out for now',DATA.funding_screen || [])}`;
+      el.querySelectorAll('[data-kind]').forEach(item=>item.addEventListener('click',()=>{if(item.dataset.kind==='uni')openUniModal(DATA.master.find(m=>m.university===item.dataset.name));else openScholModal(DATA.schol.find(s=>s.name===item.dataset.name));}));
     }
-
     /* ============================================================
        PROFILE VIEW
        ============================================================ */
+    function profileCards(title, rows) {
+      return `<div class="section-block"><h2 class="block-title">${escapeHTML(title)}</h2><div class="grid-2">${rows.map(r => `<div class="card"><h3 class="card-title">${escapeHTML(r.title)}</h3>${r.dates ? `<p class="card-sub">${escapeHTML(r.dates)}</p>` : ''}<p class="body-text">${escapeHTML(r.detail)}</p></div>`).join('')}</div></div>`;
+    }
     function renderProfile() {
       const el = document.getElementById('view-profile');
       el.innerHTML = `
     <div class="page-head">
-      <h1>Academic profile</h1>
-      <p class="sub">KNUST &middot; B.Sc. Engineering &middot; ${DATA.qual_stats.classification}</p>
+      <h1>${escapeHTML(DATA.profile.name)}</h1>
+      <p class="sub">${escapeHTML(DATA.profile.degree)} · ${escapeHTML(DATA.qual_stats.classification)} · Updated ${escapeHTML(DATA.profile.updated)}</p>
+      <p class="body-text">${escapeHTML(DATA.profile.summary)}</p>
     </div>
+    <div class="section-block"><h2 class="block-title">Application documents</h2><div class="grid-2">${(DATA.profile.documents || []).map(doc => `<div class="card"><h3 class="card-title">${escapeHTML(doc.title)}</h3><p class="body-text">${escapeHTML(doc.detail)}</p><div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:16px">${doc.links.map(link => `<a href="${escapeHTML(link.url)}" target="_blank" rel="noopener">${escapeHTML(link.label)}</a>`).join('')}</div></div>`).join('')}</div></div>
+    <div class="card section-block"><h2 class="card-title">Education</h2><p class="body-text">${escapeHTML(DATA.profile.institution)}</p><div class="kv"><div class="kv-row"><span class="k">Final CWA</span><span class="v">${(DATA.qual_stats.cwa*100).toFixed(2)}%</span></div><div class="kv-row"><span class="k">Credits</span><span class="v">145 KNUST credits</span></div><div class="kv-row"><span class="k">Academic years</span><span class="v">${escapeHTML(DATA.profile.academic_years)}</span></div><div class="kv-row"><span class="k">Degree certificate date</span><span class="v">${escapeHTML(DATA.profile.award_date)}</span></div></div></div>
     <div class="grid-2 section-block">
       <div class="card">
         <h3 class="card-title">CWA trajectory</h3>
@@ -1959,7 +1906,7 @@
       </div>
       <div class="card">
         <h3 class="card-title">Where the marks concentrate</h3>
-        <p class="card-sub">By competency cluster</p>
+        <p class="card-sub">Selected courses, credit-weighted; not an official subject classification</p>
         <div id="clusters"></div>
       </div>
     </div>
@@ -1968,6 +1915,13 @@
       <p class="card-sub">And where each one points</p>
       <div id="courses"></div>
     </div>
+    ${profileCards('Work experience', DATA.profile.experience)}
+    ${profileCards('Leadership', DATA.profile.leadership)}
+    ${profileCards('Projects — as described in CV', DATA.profile.projects)}
+    ${profileCards('Skills — as listed in CV', DATA.profile.skills)}
+    <div class="section-block"><h2 class="block-title">Credentials documented by Credly (${DATA.profile.credentials.length})</h2><p class="sub">Source: supplied Credly transcript, issued 25 October 2026. Training and learning badges are not professional certification exams. <a href="${escapeHTML(DATA.profile.credly_url)}" target="_blank" rel="noopener">Credly profile</a></p><div class="grid-2">${DATA.profile.credentials.map(c => `<div class="card"><h3 class="card-title">${escapeHTML(c.title)}</h3><p class="card-sub">${escapeHTML(c.issuer)} · ${escapeHTML(c.date)}</p><p class="body-text">${escapeHTML(c.kind)}</p></div>`).join('')}</div></div>
+    <div class="section-block"><h2 class="block-title">Additional credentials listed on LinkedIn (${DATA.profile.linkedin_credentials.length})</h2><p class="sub">Reviewed 25 October 2026 · Combined total: ${DATA.profile.credentials.length + DATA.profile.linkedin_credentials.length} distinct entries. <a href="${escapeHTML(DATA.profile.linkedin_url)}" target="_blank" rel="noopener">LinkedIn certificate list</a></p><div class="grid-2">${DATA.profile.linkedin_credentials.map(c => `<div class="card"><h3 class="card-title">${escapeHTML(c.title)}</h3><p class="card-sub">${escapeHTML(c.issuer)} · ${escapeHTML(c.date)}</p><p class="body-text">${escapeHTML(c.kind)}</p>${c.url ? `<a href="${escapeHTML(c.url)}" target="_blank" rel="noopener">Credential link listed on LinkedIn</a>` : ''}</div>`).join('')}</div></div>
+    <div class="section-block"><h2 class="block-title">Evidence and items to confirm</h2><div class="card"><ul>${DATA.profile.checks.map(c=>`<li class="body-text">${escapeHTML(c)}</li>`).join('')}</ul></div></div>
   `;
 
       // chart
@@ -2004,6 +1958,7 @@
     <div class="cluster-row">
       <div class="cluster-top"><span class="name">${r.cluster}</span><span>${(r.avg * 100).toFixed(1)}%</span></div>
       <div class="cluster-bar"><div style="width:${(r.avg / maxAvg * 100).toFixed(1)}%"></div></div>
+      <p class="card-sub">${escapeHTML(r.focus)}</p>
     </div>`).join('');
 
       // courses
@@ -2040,6 +1995,11 @@
         console.error("Initialization failed:", e);
       }
 
+      // Static data is required even if remote sync is unavailable.
+      if (!DATA || !Array.isArray(DATA.master)) {
+        document.getElementById('view-dashboard').innerHTML='<div class="empty-state"><h1>Unable to load tracker</h1><p>Reload the page after checking your connection.</p></div>';
+        return;
+      }
       // 3. Render the application
       renderDashboard();
       renderApplicationsShell();
