@@ -641,10 +641,10 @@
             "status": "Not Started",
             "applyUrl": "https://ethz.ch/en/studies/master/master-programmes.html",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "deadline": "2026-11-30",
                 "opens": "2026-11-01",
-                "note": "Autumn 2027 international applications and ESOP: 1–30 November 2026, closes 11:59 AM CET (10:59 AM Ghana), NOT midnight. ESOP provides CHF13,500/semester plus tuition waiver; top-10% standing needs evidence/self-assessment. Requires independently developed thesis pre-proposal and references.",
+                "note": "Autumn 2027 international MSc and ESOP deadline: 30 November 2026 at 11:59 AM CET (10:59 AM Ghana). ESOP requires top-10% bachelor standing and an independently authored thesis pre-proposal. Confirm eligibility and submit early.",
                 "sources": [
                     "https://ethz.ch/en/studies/master/application/dates.html",
                     "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html/"
@@ -913,10 +913,10 @@
             "status": "Not Started",
             "applyUrl": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpma",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "opens": "2026-09-09",
                 "deadline": "2027-02-25",
-                "note": "Open for October 2027. Funding dates conflict: department says 2 December 2026, course directory says 8 December. Use 2 December as an internal target and confirm with admissions. Mastercard route requires African residency/connection and contribution to sustainability/climate resilience. Prepare two research themes and 1–2 project proposals (max 500 words each).",
+                "note": "MPhil course deadline 25 February 2027. Mastercard funding date differs across official Cambridge pages (2 and 8 December 2026); use 2 December as the safe target. Fully funded award for eligible full-time one-year courses, but theme fit is climate resilience/sustainability. Assess genuine fit before preparing the statement.",
                 "sources": [
                     "https://www.cst.cam.ac.uk/admissions/acs",
                     "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpacs/finance",
@@ -934,7 +934,7 @@
             "status": "Not Started",
             "applyUrl": "https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "deadline": "2027-01-06",
                 "note": "Open for October 2027. Closes 6 January 2027 at noon UK/Ghana time. Clarendon automatic consideration by course funding deadline; no separate application. Scholarship is highly competitive, not guaranteed.",
                 "sources": [
@@ -1169,7 +1169,7 @@
             "cost_profile": "Funding offer required",
             "applyUrl": "https://www.master-ediss.eu/upcoming-application-rounds-ediss-intake-7/",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "deadline": "2027-01-12",
                 "note": "First batch. Opens 16 November 2026. English test and academic recommendations needed. Published prior-intake EMJM award is EUR1,400/month plus participation waiver and insurance; reconfirm 2027 award terms.",
                 "sources": [
@@ -1189,7 +1189,7 @@
             "cost_profile": "Funding offer required",
             "applyUrl": "https://www.cybersure-master.eu/admission/fees-and-scholarships",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "deadline": "2027-01-04",
                 "note": "First batch. Opens 16 November 2026. Final degree and consolidated transcript required by deadline for non-EU/EEA applicants. English results deadline 18 January. Full awards include tuition, travel and living support.",
                 "sources": [
@@ -1209,7 +1209,7 @@
             "cost_profile": "Funding offer required",
             "applyUrl": "https://grad.usask.ca/programs/computer-science.php",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "deadline": "2026-12-15",
                 "note": "First batch. Published September-entry deadline is 15 December; confirm 2027 cycle in portal. Minimum 70% USask equivalent in final two years. Some funding sources require higher grades. Unofficial transcript with grading key accepted initially. IELTS 7.0, no band below 6.5, unless approved exemption.",
                 "sources": [
@@ -1285,10 +1285,10 @@
             "cost_profile": "Funding offer required",
             "applyUrl": "https://www.cs.ubc.ca/students/grad/admissions",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "deadline": "2026-12-15",
                 "opens": "2026-09-15",
-                "note": "Open for September 2027 / January 2028. Thesis funding generally 24 months. Ghana graduates usually exempt from English test, but department may request one. Prepare references and statement of interests.",
+                "note": "September 2027 MSc thesis application deadline 15 December 2026. Thesis funding is a separate graduate funding package, not a Mastercard award. Official transcript is now obtained; arrange referees immediately.",
                 "sources": [
                     "https://www.cs.ubc.ca/students/grad/admissions",
                     "https://www.cs.ubc.ca/students/grad/prospective/funding/financial",
@@ -1306,7 +1306,7 @@
             "cost_profile": "Funding offer required",
             "applyUrl": "https://ece.ubc.ca/Graduate/Programs/master-applied-science/",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "deadline": "2027-01-15",
                 "opens": "2026-10-15",
                 "note": "Open September 2027 intake. Supporting documents and referees due 31 January 2027. Identify research groups and potential supervisors.",
@@ -1325,10 +1325,10 @@
             "cost_profile": "Funding offer required",
             "applyUrl": "https://cs.purdue.edu/graduate/admission/steps.html",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "deadline": "2026-12-01",
                 "opens": null,
-                "note": "Fall 2027 applications available. Spring 2027 deadline passed 1 October 2026. Separate programme from the existing Purdue ECE entry. Academic SOP, personal history, CS supplement, references, transcript and English evidence if required. GRE not required.",
+                "note": "Fall 2027 MS Computer Science deadline 1 December 2026. This is an immediate deadline; complete application materials and references must be ready. English requirement must be checked with the department.",
                 "sources": [
                     "https://cs.purdue.edu/graduate/admission/steps.html"
                 ]
@@ -1344,12 +1344,35 @@
             "cost_profile": "Funding offer required",
             "applyUrl": "https://www.utwente.nl/en/education/master/programmes/computer-science/admission/admission-international/",
             "review": {
-                "checked": "2026-10-25",
+                "checked": "2026-11-23",
                 "deadline": null,
                 "opens": null,
                 "note": "September 2027 funding route: obtain admission before UTS scholarship deadline 1 April 2027. UTS opened 15 October 2026. Allow up to eight weeks for admission; English evidence required. EUR100 application fee. Programme-specific admission deadline needs confirmation; scholarship date is not the admission deadline.",
                 "sources": [
                     "https://www.utwente.nl/en/education/master/programmes/computer-science/admission/admission-international/"
+                ]
+            }
+        },
+        {
+            "university": "American University in Cairo",
+            "region": "Egypt",
+            "program": "Master in Computing (Fall 2027)",
+            "funding": "Mastercard Foundation Scholars Program — full scholarship for eligible scholars",
+            "cost_profile": "Fully funded if selected",
+            "qual_match": "Strong subject match; admission GPA equivalency and English requirements need AUC evaluation. Ghanaian African citizen/resident criteria align with known profile; age and final award selection remain to verify.",
+            "status": "Not Started",
+            "applyUrl": "https://www.aucegypt.edu/academics/graduate-programs/computing",
+            "review": {
+                "checked": "2026-11-23",
+                "opens": "2026-11-23",
+                "deadline": "2026-12-15",
+                "note": "AUC Fall 2027 graduate applications: 15 December 2026 early admission; 1 April 2027 regular admission. Mastercard priority funding dates conflict across AUC sources: scholarship how-to lists 1 February early / 1 June regular, while MCF FAQ says 1 April priority. Use 1 February as internal target and confirm in the portal. Award includes tuition (nine credits/semester), stipend, dorm housing outside Cairo, health insurance, fees, transport and round-trip airfare. Official transcript procured; references and English test evidence need preparation.",
+                "sources": [
+                    "https://www.aucegypt.edu/academics/graduate-programs/computing",
+                    "https://www.aucegypt.edu/admissions/graduate",
+                    "https://www.aucegypt.edu/admissions/fellowships/mastercard-foundation-scholars-program",
+                    "https://www.aucegypt.edu/faqs-mastercard-foundation-scholars-program",
+                    "https://www.aucegypt.edu/admissions/scholarships/how-to-apply"
                 ]
             }
         }
@@ -2069,7 +2092,7 @@
         }
     ],
     "schol_stats": {
-        "total": 34,
+        "total": 42,
         "full_funded": 26,
         "max_value": 65000,
         "active": 26
@@ -2082,13 +2105,20 @@
             "coverage": "100% Full Ride (Tuition, Stipend, Airfare, Laptop)",
             "value": 42000.0,
             "eligibility": "Sub-Saharan African citizen; First Class / Upper Second; demonstrated leadership & giving back",
-            "deadline": "2027 date unverified",
+            "deadline": "Check partner-specific cycle",
             "materials": "Academic transcripts, 3 leadership & impact essays, 2 reference letters, CV",
-            "positioning": "Tier-1 Priority: 70.85% First Class directly qualifies; strong match for distributed computing & tech leadership.",
+            "positioning": "Scholarship is administered by partner institutions, each with its own deadlines and award terms. Use the Cambridge and CMU-Africa records for relevant routes; full award is not guaranteed at every partner.",
             "status": "Not Started",
             "applyUrl": "https://mastercardfdn.org/en/what-we-do/all-programs/mastercard-foundation-scholars-program/",
             "legacy_deadline": "Nov 19, 2026 (Declaration form due Oct 19)",
-            "deadline_review": "Unverified legacy record"
+            "deadline_review": "Partner-specific dates vary",
+            "review": {
+                "checked": "2026-11-23",
+                "note": "Mastercard Foundation partner page states each institution runs its own admissions, scholarship process, and deadline.",
+                "sources": [
+                    "https://mastercardfdn.org/en/what-we-do/our-programs/mastercard-foundation-scholars-program/where-to-apply"
+                ]
+            }
         },
         {
             "name": "Chinese Government Scholarship (CSC Type A - Bilateral)",
@@ -2632,6 +2662,175 @@
                     "https://ethz.ch/students/en/studies/financial/scholarships/excellencescholarship.html/"
                 ]
             }
+        },
+        {
+            "name": "Mastercard Foundation Scholars — AUC Fall 2027",
+            "body": "American University in Cairo",
+            "scope": "Fall 2027 full-time graduate degrees, including Master in Computing",
+            "deadline": "2027-02-01",
+            "coverage": "Full scholarship: tuition for nine credits/semester, stipend, housing for students from outside Cairo, health insurance, fees, local transport allowance, and return airfare",
+            "eligibility": "African citizenship and residence, age 35 or younger, new graduate student, AUC admission, minimum 3.2/4.0 equivalent and demonstrated financial need. AUC determines equivalence; award is competitive.",
+            "materials": "AUC graduate admission application; official transcript and degree certificate; scholarship application and financial assessment; English test; recommendation letters.",
+            "positioning": "New relevant Mastercard route. AUC gives conflicting scholarship priority dates: February 1 for early and June 1 regular on its scholarship guide; its Mastercard FAQ says April 1 priority. Use February 1 as safe internal target; confirm when cycle opens.",
+            "status": "Not Started",
+            "applyUrl": "https://www.aucegypt.edu/admissions/fellowships/mastercard-foundation-scholars-program",
+            "deadline_review": "2027 early funding target; source conflict disclosed",
+            "review": {
+                "checked": "2026-11-23",
+                "note": "Fall 2027. Graduate admission early deadline 15 December 2026; regular 1 April 2027. Mastercard-specific funding priority date conflict; February 1 is the conservative target pending confirmation.",
+                "sources": [
+                    "https://www.aucegypt.edu/admissions/fellowships/mastercard-foundation-scholars-program",
+                    "https://www.aucegypt.edu/admissions/scholarships/how-to-apply",
+                    "https://www.aucegypt.edu/faqs-mastercard-foundation-scholars-program"
+                ]
+            }
+        },
+        {
+            "name": "Mastercard Foundation Scholars — Sciences Po 2027",
+            "body": "Sciences Po, France",
+            "scope": "Two-year Master; Digital, New Technology and Public Policy stream",
+            "deadline": "2026-12-14",
+            "coverage": "Full financial needs for selected scholars for two years",
+            "eligibility": "African citizenship, under 35 on 1 September 2026, first Masters, eligible undergraduate institution (KNUST is listed), academic threshold and admission. Policy-focused rather than a Computer Science MSc.",
+            "materials": "Sciences Po Masters application and separate scholarship eligibility application; official transcript, degree certificate, academic references and accepted English evidence. Personal essays must be independently written.",
+            "positioning": "Strongly funded but cross-disciplinary pivot into technology policy. First scholarship/admissions application window 23 November has passed or is closing today; later round is 14 December 2026 for admission decision by 1 April 2027. Check minimum academic threshold first.",
+            "status": "Not Started",
+            "applyUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/mastercard-foundation-scholarships/graduate-study/",
+            "deadline_review": "Official 2026-12-14 later round; urgent academic threshold check",
+            "review": {
+                "checked": "2026-11-23",
+                "note": "Fully funded two-year MCF route. KNUST appears on Sciences Po’s reference university list. Deadline 14 December 2026 for the later admissions decision. Requires a complete application including references and English scores; do not start the essays with AI because the program explicitly requires independent personal writing.",
+                "sources": [
+                    "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/mastercard-foundation-scholarships/graduate-study/",
+                    "https://www.sciencespo.fr/ecole-affaires-publiques/en/academics/master-s-programme-in-digital-transformation-in-the-public-sector-and-administration/",
+                    "https://www.sciencespo.fr/students/sites/sciencespo.fr.students/files/sciencespo-mastercard-foundation-institutions-partenaires-en.pdf"
+                ]
+            }
+        },
+        {
+            "name": "Mastercard Foundation Scholars — Edinburgh 2027/28 (closed)",
+            "body": "University of Edinburgh",
+            "scope": "On-campus and online postgraduate awards",
+            "deadline": "2026-11-19",
+            "coverage": "Full scholarship for selected postgraduate scholars",
+            "eligibility": "African applicants; cycle required attendance at a September 2026 information session and invitation to apply. The application window has closed.",
+            "materials": "No new application possible for this cycle. Watch for next recruitment cycle.",
+            "positioning": "Closed 19 November 2026. Mandatory information sessions and invitation-only screening also passed.",
+            "status": "Closed",
+            "applyUrl": "https://edinburgh-global.ed.ac.uk/mastercard-foundation-scholars-program/apply-for-a-scholarship/application-timelines",
+            "deadline_review": "Closed",
+            "review": {
+                "checked": "2026-11-23",
+                "note": "2027/28 main scholarship form closed 19 November 2026; mandatory September information sessions and invitation process also passed.",
+                "sources": [
+                    "https://edinburgh-global.ed.ac.uk/mastercard-foundation-scholars-program/apply-for-a-scholarship/application-timelines",
+                    "https://edinburgh-global.ed.ac.uk/mastercard-foundation-scholars-program/apply-for-a-scholarship/how-to-apply"
+                ]
+            }
+        },
+        {
+            "name": "Mastercard Foundation Scholars — UBC Winter 2027 (closed)",
+            "body": "University of British Columbia",
+            "scope": "Master of Data Science, Winter 2027",
+            "deadline": "2026-11-20",
+            "coverage": "Tuition, books, flights and immigration support, room and board, living stipend and health insurance",
+            "eligibility": "African citizen/refugee, age 35 or younger, eligible programme and invited applicant. Expression-of-interest and faculty stages have passed.",
+            "materials": "No new application possible for Winter 2027. Watch for a future cycle.",
+            "positioning": "Full coverage, but EOI closed 6 September, invitation round ended 30 September, and faculty application ended 20 November 2026.",
+            "status": "Closed",
+            "applyUrl": "https://mastercardfdn.scholars.ubc.ca/graduate-admissions/graduate-admissions-2/",
+            "deadline_review": "Closed",
+            "review": {
+                "checked": "2026-11-23",
+                "note": "Winter 2027 Master of Data Science only. EOI deadline 6 September 2026; faculty deadline 20 November 2026. Closed for new applications.",
+                "sources": [
+                    "https://mastercardfdn.scholars.ubc.ca/graduate-admissions/graduate-admissions-2/",
+                    "https://mastercardfdn.scholars.ubc.ca/"
+                ]
+            }
+        },
+        {
+            "name": "Mastercard Foundation Scholars — McGill Fall 2027 (closed)",
+            "body": "McGill University",
+            "scope": "Selected masters in public policy, nutrition/public health, sustainable agriculture",
+            "deadline": "Closed to new applicants",
+            "coverage": "Full international tuition, housing, monthly stipend, immigration/pre-arrival support, academic tools",
+            "eligibility": "African citizen/resident, mandatory pre-application information session and eligible degree. Current round information sessions/application access have closed; no direct CS programme match identified.",
+            "materials": "No new application this cycle; monitor next round and eligible programme list.",
+            "positioning": "Scholarship offers comprehensive funding, but mandatory information sessions occurred June–July and the Fall 2027 selection cycle is closed to new applicants. Available academic areas are not a direct fit for the current CS plan.",
+            "status": "Closed",
+            "applyUrl": "https://www.mcgill.ca/mastercardfdn-scholars/apply/information-sessions",
+            "deadline_review": "Closed for new applicants; 1 December fee-waiver deadline is only for pre-screened invitees",
+            "review": {
+                "checked": "2026-11-23",
+                "note": "Current Fall 2027 application period closed; information sessions were mandatory and occurred June–July 2026. The fee-waiver application deadline of 1 December applies only to candidates already invited through screening.",
+                "sources": [
+                    "https://www.mcgill.ca/mastercardfdn-scholars/apply/information-sessions",
+                    "https://www.mcgill.ca/mastercardfdn-scholars/apply/selection-process",
+                    "https://www.mcgill.ca/mastercardfdn-scholars/apply/faq"
+                ]
+            }
+        },
+        {
+            "name": "Mastercard Foundation Scholars — UCT 2027 postgraduate (closed)",
+            "body": "University of Cape Town",
+            "scope": "Eligible taught postgraduate, honours and coursework Masters",
+            "deadline": "2026-10-31",
+            "coverage": "Comprehensive scholarship for selected scholars; award scope depends on programme",
+            "eligibility": "African citizenship, eligible taught postgraduate degree, financial barriers and leadership; postgraduate scholarship deadline passed.",
+            "materials": "No new application for the 2027 intake. Check next cycle.",
+            "positioning": "Postgraduate scholarship deadline 31 October 2026 passed. Research-only Masters are excluded.",
+            "status": "Closed",
+            "applyUrl": "https://www.uct.ac.za/mastercardfdn/apply-mastercard-foundation-scholars-program",
+            "deadline_review": "Closed",
+            "review": {
+                "checked": "2026-11-23",
+                "note": "2027 postgraduate MCF application deadline was 31 October 2026. Programme admissions may remain open but the scholarship application is closed.",
+                "sources": [
+                    "https://www.uct.ac.za/mastercardfdn/apply-mastercard-foundation-scholars-program"
+                ]
+            }
+        },
+        {
+            "name": "Mastercard Foundation Scholars — University of Pretoria 2027 (closed)",
+            "body": "University of Pretoria",
+            "scope": "Full-time first-year postgraduate degrees",
+            "deadline": "2026-09-30",
+            "coverage": "Comprehensive scholarship subject to household need and award conditions",
+            "eligibility": "African students starting a first-year Masters in 2027; provisional UP admission, financial need, age and programme conditions apply. Cycle closed.",
+            "materials": "No new application for 2027 cycle. Check subsequent round.",
+            "positioning": "The 2027 postgraduate scholarship application deadline was 30 September 2026.",
+            "status": "Closed",
+            "applyUrl": "https://www.up.ac.za/mastercard-foundation-scholars-program/how-apply",
+            "deadline_review": "Closed",
+            "review": {
+                "checked": "2026-11-23",
+                "note": "Official 2027 postgraduate application closed 30 September 2026. Admission applications also had earlier faculty-specific deadlines.",
+                "sources": [
+                    "https://www.up.ac.za/mastercard-foundation-scholars-program/how-apply",
+                    "https://drupalwebprod-files.up.ac.za/Public/2026-04/Postgraduate%202027%20form.pdf?VersionId=wT9TyJp00LoHjEblzmWvtYNGOJptQU9i"
+                ]
+            }
+        },
+        {
+            "name": "Mastercard Foundation Scholars — ASU Phase 3 (closed)",
+            "body": "Arizona State University",
+            "scope": "Selected technology and innovation graduate programs",
+            "deadline": "2026-09-27",
+            "coverage": "Full funding for selected scholars per award terms",
+            "eligibility": "African applicants meeting programme and scholarship conditions. 2027/28 Phase 3 deadline passed.",
+            "materials": "No new application for this cycle.",
+            "positioning": "2027/28 Phase 3 deadline 27 September 2026; closed.",
+            "status": "Closed",
+            "applyUrl": "https://mcfscholars.asu.edu/phase-three-innovation-and-technology",
+            "deadline_review": "Closed",
+            "review": {
+                "checked": "2026-11-23",
+                "note": "The 2027/28 Phase 3 deadline was 27 September 2026. Closed.",
+                "sources": [
+                    "https://mcfscholars.asu.edu/phase-three-innovation-and-technology"
+                ]
+            }
         }
     ],
     "qual_stats": {
@@ -2815,23 +3014,23 @@
         }
     ],
     "preparation": {
-        "updated": "2026-10-25",
+        "updated": "2026-11-23",
         "target": "Late 2027 preferred; consider eligible early 2027 opportunities",
         "tasks": [
             {
                 "title": "Official transcript",
-                "status": "Requested",
-                "detail": "Transcript requested; approval/delivery pending. Official January 2023 KNUST handbook grading tables located (printed pp.148–150). No separate November 2025 revision found; request cohort-applicable grading legend from transcript.coe@knust.edu.gh."
+                "status": "Received",
+                "detail": "Official KNUST transcript procured. Upload/send as each programme requires; retain the sealed or institution-sent copy for schools requiring direct delivery."
+            },
+            {
+                "title": "Recommendation letters",
+                "status": "In progress",
+                "detail": "Referees are being arranged. Confirm two academic and one professional recommender, then share the current CV, transcript, programme list and each portal deadline."
             },
             {
                 "title": "Admissions CV",
                 "status": "Draft ready",
                 "detail": "Two-page academic CV available in Profile as PDF and editable Word. EY role and former SCC role confirmed; exact enrolment year and SCC end date omitted pending confirmation."
-            },
-            {
-                "title": "Referees",
-                "status": "To arrange",
-                "detail": "Ask two academic referees and one professional referee before entering their details in portals."
             },
             {
                 "title": "Project summary",
@@ -2852,7 +3051,7 @@
     },
     "profile": {
         "name": "Gideon Nana Kwame Nyarko",
-        "updated": "2026-10-25",
+        "updated": "2026-11-23",
         "degree": "BSc Computer Engineering",
         "institution": "Kwame Nkrumah University of Science and Technology",
         "academic_years": "2021–2022 through 2024–2025",
@@ -3006,7 +3205,7 @@
         ],
         "additional_credentials": [],
         "checks": [
-            "Official transcript ordered; approval and delivery pending. Updated results and degree certificate are available.",
+            "Official transcript procured by applicant on 23 November 2026; recommendation letters are in progress.",
             "Credly transcript issued 25 October 2026 supports the 13 listed badges. These are training/course/learning credentials, not evidence of separate professional certification exams.",
             "Applicant confirms September start month. Transcript shows Year 1 in 2021–2022 and Year 4 in 2024–2025 but no start month; September 2022 cannot be corroborated. September start month and four-year course confirmed by applicant; precise start year remains unresolved. Degree certificate dated November 2025.",
             "Applicant confirms ongoing EY employment on 25 October 2026. Current Data Assurance and Technology Risk Intern title confirmed. SCC publicity role is no longer active; end date not specified. Experience, skills and other projects are sourced from supplied CV.",
@@ -3168,5 +3367,123 @@
             "detail": "2027/28 technology scholarship deadline has passed, despite a broad partner directory showing applications open.",
             "url": "https://mcfscholars.asu.edu/phase-three-innovation-and-technology"
         }
-    ]
+    ],
+    "action_plan": {
+        "updated": "2026-11-23",
+        "timezone": "Africa/Accra",
+        "items": [
+            {
+                "date": "2026-11-23",
+                "title": "Referee requests and application pack",
+                "status": "In progress",
+                "priority": "Urgent",
+                "detail": "Your official transcript is procured and recommendation letters are in progress. Confirm two academic and one professional referee; send each the CV, official transcript, grading key, programme list, submission instructions and a requested return date of 30 November. Tell referees to use institutional email where portals require it."
+            },
+            {
+                "date": "2026-11-24",
+                "title": "Check Sciences Po Mastercard eligibility",
+                "status": "To do",
+                "priority": "Urgent",
+                "detail": "KNUST is on the eligible institution list. Check the Ghana minimum academic threshold, age rule and English test requirement immediately. Later scholarship/admission round closes 14 December; complete recommendations and required test evidence are mandatory. The programme is a two-year technology-policy Masters, not a core CS MSc; independently write the scholarship essays."
+            },
+            {
+                "date": "2026-11-25",
+                "title": "ETH Zurich MSc and ESOP go/no-go",
+                "status": "To do",
+                "priority": "Urgent",
+                "detail": "Confirm whether you can credibly self-assess within the top 10% required for ESOP, choose the exact MSc, and finish an independently authored thesis pre-proposal. Do not rely on ESOP without eligibility evidence."
+            },
+            {
+                "date": "2026-11-27",
+                "title": "Complete first referee-ready application packet",
+                "status": "To do",
+                "priority": "High",
+                "detail": "Finalize programme-specific CV, transcript scan, degree certificate, grading key, English-medium letter request and referee brief. Submit referee requests with portal-specific instructions and deadlines."
+            },
+            {
+                "date": "2026-11-30",
+                "title": "ETH ESOP application deadline",
+                "status": "Upcoming",
+                "priority": "Critical",
+                "detail": "ETH international MSc/ESOP application closes 11:59 AM CET (10:59 AM Ghana). Submit only if eligibility and all independently authored materials are ready."
+            },
+            {
+                "date": "2026-12-01",
+                "title": "Purdue Computer Science MS deadline",
+                "status": "Upcoming",
+                "priority": "Critical",
+                "detail": "Fall 2027 application deadline. Confirm referee submission timing and English evidence in the portal; complete only if the full application can be submitted by the programme deadline."
+            },
+            {
+                "date": "2026-12-02",
+                "title": "Cambridge Mastercard safe funding target",
+                "status": "Upcoming",
+                "priority": "Critical",
+                "detail": "Cambridge official sources list conflicting dates (2 and 8 December). Use 2 December as the safe target. Assess whether your Sankofa recycling project and future goals support a genuine climate/sustainability impact case. Requires full course application and scholarship statement."
+            },
+            {
+                "date": "2026-12-07",
+                "title": "Referee follow-up and missing documents",
+                "status": "To do",
+                "priority": "High",
+                "detail": "Follow up politely with any referee who has not submitted. Check that each portal shows the reference received; do not assume an invitation email means the letter is submitted."
+            },
+            {
+                "date": "2026-12-15",
+                "title": "AUC, UBC CS and Saskatchewan application deadlines",
+                "status": "Upcoming",
+                "priority": "High",
+                "detail": "AUC Fall 2027 early graduate admission deadline, UBC CS thesis MSc deadline, and published Saskatchewan September-entry deadline. Submit separate complete applications; confirm each portal’s exact supporting-document and reference deadline. AUC MCF early funding target is 1 February 2027 (date conflict noted)."
+            },
+            {
+                "date": "2027-01-04",
+                "title": "CYBERSURE Erasmus Mundus deadline",
+                "status": "Upcoming",
+                "priority": "High",
+                "detail": "Confirm official transcript, two academic references and English evidence; check non-EU document and test-score rules."
+            },
+            {
+                "date": "2027-01-06",
+                "title": "Oxford MSc Advanced Computer Science deadline",
+                "status": "Upcoming",
+                "priority": "High",
+                "detail": "Submit by noon UK/Ghana time for October 2027. This also triggers automatic Clarendon consideration if eligible; funding is highly competitive."
+            },
+            {
+                "date": "2027-01-12",
+                "title": "EDISS Erasmus Mundus deadline",
+                "status": "Upcoming",
+                "priority": "High",
+                "detail": "Complete consortium application, English evidence and academic references; verify the 2027 scholarship terms."
+            },
+            {
+                "date": "2027-02-01",
+                "title": "AUC Mastercard early funding target",
+                "status": "Upcoming",
+                "priority": "High",
+                "detail": "Conservative early target from AUC scholarship application instructions. AUC Mastercard FAQ separately says 1 April 2027 priority; confirm cycle instructions and submit the scholarship financial assessment."
+            },
+            {
+                "date": "2027-02-02",
+                "title": "IPCVai Erasmus Mundus deadline",
+                "status": "Upcoming",
+                "priority": "Medium",
+                "detail": "Proceed only if computer vision is a real study interest; engineering degree and English-medium evidence are accepted per consortium guidance."
+            },
+            {
+                "date": "2027-02-25",
+                "title": "Cambridge MPhil course deadline",
+                "status": "Upcoming",
+                "priority": "High",
+                "detail": "Final course deadline; Mastercard funding application should target 2 December due conflicting funding dates."
+            },
+            {
+                "date": "2027-04-01",
+                "title": "AUC Fall 2027 regular admission and Mastercard priority date",
+                "status": "Upcoming",
+                "priority": "High",
+                "detail": "AUC Mastercard FAQ names 1 April as priority for Fall 2027 graduate applicants. Complete graduate admission, scholarship application, financial assessment and English evidence; compare with AUC scholarship guide’s separate Feb/June dates."
+            }
+        ]
+    }
 }
